@@ -536,7 +536,7 @@ USTAR_SHELF_FROM_VEL = True     !   [Boolean] default = True
 ICE_PROFILE_CONFIG = "FILE"  !
                                 ! This specifies how the initial ice profile is specified. Valid values are:
                                 ! CHANNEL, FILE, and USER.
-ICE_THICKNESS_FILE = "MOM_Shelf_IC.nc" !"Ocean1_3D.nc" ! default = "ice_shelf_h.nc"
+ICE_THICKNESS_FILE = "MOM_Shelf_IC_200700Grosveld.nc" !"MOM_Shelf_IC.nc" !"Ocean1_3D.nc" ! default = "ice_shelf_h.nc"
                                 ! The file from which the ice bathymetry and area are read.
 ICE_THICKNESS_VARNAME = "h_shelf" ! default = "h_shelf"
                                 ! The name of the thickness variable in ICE_THICKNESS_FILE.
