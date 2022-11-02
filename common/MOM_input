@@ -194,7 +194,7 @@ GRID_FILE = "ocean_hgrid_isomip.nc" !
 USE_TRIPOLAR_GEOLONB_BUG = False !   [Boolean] default = False
                                 ! If true, use older code that incorrectly sets the longitude in some points
                                 ! along the tripolar fold to be off by 360 degrees.
-TOPO_CONFIG = "ISOMIP"          !
+TOPO_CONFIG = "flat"          !
                                 ! This specifies how bathymetry is specified:
                                 !     file - read bathymetric information from the file
                                 !       specified by (TOPO_FILE).
