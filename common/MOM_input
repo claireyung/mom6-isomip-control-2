@@ -1393,10 +1393,10 @@ HORIZ_VARYING_BACKGROUND = False !   [Boolean] default = False
 PRANDTL_BKGND = 1.0             !   [nondim] default = 1.0
                                 ! Turbulent Prandtl number used to convert vertical background diffusivities
                                 ! into viscosities.
-HENYEY_IGW_BACKGROUND = False   !   [Boolean] default = False
+!HENYEY_IGW_BACKGROUND = False   !   [Boolean] default = False
                                 ! If true, use a latitude-dependent scaling for the near surface background
                                 ! diffusivity, as described in Harrison & Hallberg, JPO 2008.
-HENYEY_IGW_BACKGROUND_NEW = False !   [Boolean] default = False
+!HENYEY_IGW_BACKGROUND_NEW = False !   [Boolean] default = False
                                 ! If true, use a better latitude-dependent scaling for the background
                                 ! diffusivity, as described in Harrison & Hallberg, JPO 2008.
 KD_TANH_LAT_FN = False          !   [Boolean] default = False
