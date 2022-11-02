@@ -2,7 +2,7 @@
 project: x77
 queue: normal
 walltime: 00:20:00
-jobname: mom6_isomip_pg1
+jobname: mom6_isomip_test
 ncpus: 48
 jobfs: 10GB
 
@@ -11,8 +11,10 @@ jobfs: 10GB
 
 model: mom6
 input:
-    - /home/156/cy8964/ISOMIP/
-exe: /home/552/pc5520/MOM6_2/build/MOM6
+    - ../INPUT/
+#/home/156/cy8964/ISOMIP/
+exe: /scratch/x77/cy8964/mom6/mom6-ninja-nci/ocean_only_symmetric/MOM6 
+# /home/552/pc5520/MOM6_2/build/MOM6
 
 collate: false
 runlog: true

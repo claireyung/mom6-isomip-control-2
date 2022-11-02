@@ -1,0 +1,78 @@
+format: yamanifest
+version: 1.0
+---
+work/INPUT/MOM_Shelf_IC.nc:
+  fullpath: ../INPUT/MOM_Shelf_IC.nc
+  hashes:
+    binhash: 1a5235d49b53165c1c1c571d21b6d68a
+    md5: 869d689747644d76e09e91e4f2f853e7
+work/INPUT/MOM_Shelf_IC_200700Grosveld.nc:
+  fullpath: ../INPUT/MOM_Shelf_IC_200700Grosveld.nc
+  hashes:
+    binhash: cf58b90e96860474b35267984f0a70f7
+    md5: 1425fdba159a143e21dd779398f3d6ed
+work/INPUT/MOM_Shelf_IC_Mathiot.nc:
+  fullpath: ../INPUT/MOM_Shelf_IC_Mathiot.nc
+  hashes:
+    binhash: 5073a2743a2f0c32c44237e7fccfb06b
+    md5: d42d13dfd93c4cdf3543260b8b11d82c
+work/INPUT/Ocean1_3D.nc:
+  fullpath: ../INPUT/Ocean1_3D.nc
+  hashes:
+    binhash: 424e447b4410159480867059e4d7dcd5
+    md5: 41ff7c7ad45502f2266cc1b21c0fde8c
+work/INPUT/diag_rho2.nc:
+  fullpath: ../INPUT/diag_rho2.nc
+  hashes:
+    binhash: 60f8f92e955c0a176f6786c4bbd68bbd
+    md5: 2e28890e50220397a167a2b3c4a30271
+work/INPUT/hycom1_30_30m.nc:
+  fullpath: ../INPUT/hycom1_30_30m.nc
+  hashes:
+    binhash: d9a8c1e14e0724d517c3eba84fb73704
+    md5: 6c4928c98f330e27d1381da03cdf9067
+work/INPUT/hycom1_75_800m.nc:
+  fullpath: ../INPUT/hycom1_75_800m.nc
+  hashes:
+    binhash: df786bce708db439d46b8a079777ca63
+    md5: 023b23f6b55e6f3b3de6778e608d0d3d
+work/INPUT/hycom1_75_800m_shrunken.nc:
+  fullpath: ../INPUT/hycom1_75_800m_shrunken.nc
+  hashes:
+    binhash: a64f6f0ee9c47843894e5afd64f8574c
+    md5: c269b45bf1b95277bca22230460563c7
+work/INPUT/nonlin_ISOMIP_initTS.nc:
+  fullpath: ../INPUT/nonlin_ISOMIP_initTS.nc
+  hashes:
+    binhash: 09e3c572db808d1ccabdac82e9c2718a
+    md5: 033c1d52796a7a5b87d2f63a8b7c9f30
+work/INPUT/ocean_daily_z.nc:
+  fullpath: ../INPUT/ocean_daily_z.nc
+  hashes:
+    binhash: dc83566e2bbc0baa2a27ddba209dd42e
+    md5: 437e4b815d3d28aab7e3e589e347e628
+work/INPUT/ocean_hgrid_isomip.nc:
+  fullpath: ../INPUT/ocean_hgrid_isomip.nc
+  hashes:
+    binhash: 5d414bd17329c620ae70ac20d91e04d8
+    md5: 81647f9deaf6f17fffac7c272220bc01
+work/INPUT/vert_isomip.nc:
+  fullpath: ../INPUT/vert_isomip.nc
+  hashes:
+    binhash: 27948c0bb9875b2454d970dc9b7c1876
+    md5: 62121532af6d64c817cc0703293828c0
+work/INPUT/vert_isomip_30m.nc:
+  fullpath: ../INPUT/vert_isomip_30m.nc
+  hashes:
+    binhash: 7fc5b9e6e3166a92dfcf7303fc4582a1
+    md5: 62121532af6d64c817cc0703293828c0
+work/INPUT/vert_isomip_80m.nc:
+  fullpath: ../INPUT/vert_isomip_80m.nc
+  hashes:
+    binhash: 0d0063c0fed754182ff68f2ecae5a9de
+    md5: 9474cc3bb6ee6f6c3745407fb961705d
+work/INPUT/vert_isomip_orig.nc:
+  fullpath: ../INPUT/vert_isomip_orig.nc
+  hashes:
+    binhash: 35643efe7294dadd1e75a7fd24d2ad4f
+    md5: 7ab0f8b4d8048408716a61eda9803de4
