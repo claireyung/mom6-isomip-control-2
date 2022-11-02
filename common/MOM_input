@@ -96,7 +96,7 @@ DO_GEOTHERMAL = False           !   [Boolean] default = False
 BOUND_SALINITY = False          !   [Boolean] default = False
                                 ! If true, limit salinity to being positive. (The sea-ice model may ask for more
                                 ! salt than is available and drive the salinity negative otherwise.)
-C_P = 3925.0                    !   [J kg-1 K-1] default = 3991.86795711963
+C_P = 3991.86795711963                    !   [J kg-1 K-1] default = 3991.86795711963
                                 ! The heat capacity of sea water, approximated as a constant. This is only used
                                 ! if ENABLE_THERMODYNAMICS is true. The default value is from the TEOS-10
                                 ! definition of conservative temperature.
@@ -297,7 +297,7 @@ DRHO_DS = 0.805876093           !   [kg m-3 PSU-1] default = 0.8
 EOS_QUADRATURE = False          !   [Boolean] default = False
                                 ! If true, always use the generic (quadrature) code code for the integrals of
                                 ! density.
-TFREEZE_FORM = "MILLERO_78"     ! default = "LINEAR"
+TFREEZE_FORM = "LINEAR"     ! default = "LINEAR"
                                 ! TFREEZE_FORM determines which expression should be used for the freezing
                                 ! point.  Currently, the valid choices are "LINEAR", "MILLERO_78", "TEOS10"
 
@@ -507,7 +507,7 @@ KD_SALT_MOLECULAR = 8.02E-10    !   [m2 s-1] default = 8.02E-10
                                 ! The molecular diffusivity of salt in sea water at the freezing point.
 KD_TEMP_MOLECULAR = 1.41E-07    !   [m2 s-1] default = 1.41E-07
                                 ! The molecular diffusivity of heat in sea water at the freezing point.
-DT_FORCING = 3000.0             !   [s] default = 0.0
+DT_FORCING = 300.0             !   [s] default = 0.0
                                 ! The time step for changing forcing, coupling with other components, or
                                 ! potentially writing certain diagnostics. The default value is given by DT.
 COL_THICK_MELT_THRESHOLD = 10.0 !   [m] default = 0.0
@@ -769,12 +769,12 @@ CHANNEL_DRAG = False            !   [Boolean] default = False
 LINEAR_DRAG = False             !   [Boolean] default = False
                                 ! If LINEAR_DRAG and BOTTOMDRAGLAW are defined the drag law is
                                 ! cdrag*DRAG_BG_VEL*u.
-PRANDTL_TURB = 1.25             !   [nondim] default = 1.0
+PRANDTL_TURB = 1.0             !   [nondim] default = 1.0
                                 ! The turbulent Prandtl number applied to shear instability.
 DYNAMIC_VISCOUS_ML = False      !   [Boolean] default = False
                                 ! If true, use a bulk Richardson number criterion to determine the mixed layer
                                 ! thickness for viscosity.
-HBBL = 10.0                     !   [m]
+HBBL = 5.0                     !   [m]
                                 ! The thickness of a bottom boundary layer with a viscosity of KVBBL if
                                 ! BOTTOMDRAGLAW is not defined, or the thickness over which near-bottom
                                 ! velocities are averaged for the drag law if BOTTOMDRAGLAW is defined but
@@ -786,7 +786,7 @@ BBL_USE_TIDAL_BG = False        !   [Boolean] default = False
                                 ! Flag to use the tidal RMS amplitude in place of constant background velocity
                                 ! for computing u* in the BBL. This flag is only used when BOTTOMDRAGLAW is true
                                 ! and LINEAR_DRAG is false.
-DRAG_BG_VEL = 0.1               !   [m s-1] default = 0.0
+DRAG_BG_VEL = 0.0               !   [m s-1] default = 0.0
                                 ! DRAG_BG_VEL is either the assumed bottom velocity (with LINEAR_DRAG) or an
                                 ! unresolved  velocity that is combined with the resolved velocity to estimate
                                 ! the velocity magnitude.  DRAG_BG_VEL is only used when BOTTOMDRAGLAW is
@@ -795,7 +795,7 @@ BBL_USE_EOS = True              !   [Boolean] default = True
                                 ! If true, use the equation of state in determining the properties of the bottom
                                 ! boundary layer.  Otherwise use the layer target potential densities.  The
                                 ! default of this parameter is the value of USE_EOS.
-BBL_THICK_MIN = 0.1             !   [m] default = 0.0
+BBL_THICK_MIN = 0.0             !   [m] default = 0.0
                                 ! The minimum bottom boundary layer thickness that can be used with
                                 ! BOTTOMDRAGLAW. This might be Kv/(cdrag*drag_bg_vel) to give Kv as the minimum
                                 ! near-bottom viscosity.
@@ -824,7 +824,7 @@ KHTH_MIN = 0.0                  !   [m2 s-1] default = 0.0
                                 ! The minimum horizontal thickness diffusivity.
 KHTH_MAX = 0.0                  !   [m2 s-1] default = 0.0
                                 ! The maximum horizontal thickness diffusivity.
-KHTH_MAX_CFL = 1.0              !   [nondimensional] default = 0.8
+KHTH_MAX_CFL = 0.2              !   [nondimensional] default = 0.8
                                 ! The maximum value of the local diffusive CFL ratio that is permitted for the
                                 ! thickness diffusivity. 1.0 is the marginally unstable value in a pure layered
                                 ! model, but much smaller numbers (e.g. 0.1) seem to work better for ALE-based
@@ -902,7 +902,7 @@ UPWIND_1ST_CONTINUITY = False   !   [Boolean] default = False
                                 ! If true, CONTINUITY_PPM becomes a 1st-order upwind continuity solver.  This
                                 ! scheme is highly diffusive but may be useful for debugging or in single-column
                                 ! mode where its minimal stencil is useful.
-ETA_TOLERANCE = 1.0E-12         !   [m] default = 1.5E-09
+ETA_TOLERANCE = 1.5E-09         !   [m] default = 1.5E-09
                                 ! The tolerance for the differences between the barotropic and baroclinic
                                 ! estimates of the sea surface height due to the fluxes through each face.  The
                                 ! total tolerance for SSH is 4 times this value.  The default is
@@ -1035,7 +1035,7 @@ BIHARMONIC = True               !   [Boolean] default = True
                                 ! LAPLACIAN.
 AH = 0.0                        !   [m4 s-1] default = 0.0
                                 ! The background biharmonic horizontal viscosity.
-AH_VEL_SCALE = 0.001            !   [m s-1] default = 0.0
+AH_VEL_SCALE = 0.0            !   [m s-1] default = 0.0
                                 ! The velocity scale which is multiplied by the cube of the grid spacing to
                                 ! calculate the biharmonic viscosity. The final viscosity is the largest of this
                                 ! scaled viscosity, the Smagorinsky and Leith viscosities, and AH.
@@ -1096,7 +1096,7 @@ HARMONIC_BL_SCALE = 1.0         !   [nondim] default = 0.0
 HMIX_FIXED = 20.0               !   [m]
                                 ! The prescribed depth over which the near-surface viscosity and diffusivity are
                                 ! elevated when the bulk mixed layer is not used.
-KVML = 0.01                     !   [m2 s-1] default = 1.0E-06
+KVML = 1.0E-06                     !   [m2 s-1] default = 1.0E-06
                                 ! The kinematic viscosity in the mixed layer.  A typical value is ~1e-2 m2 s-1.
                                 ! KVML is not used if BULKMIXEDLAYER is true.  The default is set by KV.
 MAXVEL = 10.0                   !   [m s-1] default = 3.0E+08
@@ -1616,7 +1616,7 @@ RESTOREBUOY = False             !   [Boolean] default = False
                                 ! surface state with a rate given by FLUXCONST.
 LATENT_HEAT_VAPORIZATION = 2.5E+06 !   [J/kg] default = 2.5E+06
                                 ! The latent heat of fusion.
-GUST_CONST = 0.02               !   [Pa] default = 0.0
+GUST_CONST = 0.0               !   [Pa] default = 0.0
                                 ! The background gustiness in the winds.
 FIX_USTAR_GUSTLESS_BUG = True   !   [Boolean] default = True
                                 ! If true correct a bug in the time-averaging of the gustless wind friction
@@ -1629,7 +1629,7 @@ USE_WAVES = False               !   [Boolean] default = False
                                 ! If true, enables surface wave modules.
 
 ! === module MOM_main (MOM_driver) ===
-DAYMAX = 10.0                   !   [days]
+DAYMAX = 365.0                   !   [days]
                                 ! The final time of the whole simulation, in units of TIMEUNIT seconds.  This
                                 ! also sets the potential end time of the present run segment if the end time is
                                 ! not set via ocean_solo_nml in input.nml.
