@@ -194,6 +194,7 @@ GRID_CONFIG = "cartesian"          !
 AXIS_UNITS = "k"
 SOUTHLAT = -80
 LENLAT = 10
+LENLON = 15
 
 
 
