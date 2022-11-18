@@ -2,7 +2,7 @@
 
 
 #override ICE_SHELF = False ! Turn off the ice shelf so we just have a block of ocean
-#override S_TOP = 34.0                    !   [PSU]
+#override S_TOP = 34.5                    !   [PSU]
                                 ! Initial salinity of the top surface.
 #override S_RANGE = 1.0                   !   [PSU]
                                 ! Initial salinity difference (top-bottom).
