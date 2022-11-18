@@ -1,0 +1,33 @@
+#
+
+archive
+bin
+work
+mom6.err
+mom6.out
+pbs_logs
+
+tools/PET*
+tools/*.nc
+tools/contrib/esmf
+tools/contrib/bin
+
+*.swp
+input_*.tar.gz
+input
+
+.cache
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+payu-experiments
+
+._*
+
+Footer
+
