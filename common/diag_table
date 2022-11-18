@@ -241,17 +241,17 @@
 #
 # Viscosities and diffusivities:
 #===============================
-"ocean_model","Kd_effective","Kd_effective","visc_%4yr_%3dy","all",.true.,"none",2
-"ocean_model","Ahh","Ahh","visc_%4yr_%3dy","all",.true.,"none",2
-"ocean_model","Ahq","Ahq","visc_%4yr_%3dy","all",.true.,"none",2
-"ocean_model","Khh","Khh","visc_%4yr_%3dy","all",.true.,"none",2
-"ocean_model","Khq","Khq","visc_%4yr_%3dy","all",.true.,"none",2
-"ocean_model","bbl_thick_u","bbl_thick_u","visc_%4yr_%3dy","all",.true.,"none",2
-"ocean_model","kv_bbl_u","kv_bbl_u","visc_%4yr_%3dy","all",.true.,"none",2
-"ocean_model","bbl_thick_v","bbl_thick_v","visc_%4yr_%3dy","all",.true.,"none",2
-"ocean_model","kv_bbl_v","kv_bbl_v","visc_%4yr_%3dy","all",.true.,"none",2
-"ocean_model","av_visc","av_visc","visc_%4yr_%3dy","all",.true.,"none",2
-"ocean_model","au_visc","au_visc","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","Kd_effective","Kd_effective","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","Ahh","Ahh","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","Ahq","Ahq","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","Khh","Khh","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","Khq","Khq","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","bbl_thick_u","bbl_thick_u","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","kv_bbl_u","kv_bbl_u","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","bbl_thick_v","bbl_thick_v","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","kv_bbl_v","kv_bbl_v","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","av_visc","av_visc","visc_%4yr_%3dy","all",.true.,"none",2
+#"ocean_model","au_visc","au_visc","visc_%4yr_%3dy","all",.true.,"none",2
 #
 # Kinetic Energy Balance Terms:
 #=============================
