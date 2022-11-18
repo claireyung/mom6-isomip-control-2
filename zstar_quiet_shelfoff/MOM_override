@@ -1,0 +1,4 @@
+! Blank file in which we can put "overrides" for parameters
+
+
+#override ICE_SHELF = False ! Turn off the ice shelf so we just have a block of ocean
