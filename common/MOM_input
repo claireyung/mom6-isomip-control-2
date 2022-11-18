@@ -181,7 +181,7 @@ INPUTDIR = "INPUT"              ! default = "."
                                 ! The directory in which input files are found.
 
 ! === module MOM_grid_init ===
-GRID_CONFIG = "mosaic"          !
+GRID_CONFIG = "cartesian"          !
                                 ! A character string that determines the method for defining the horizontal
                                 ! grid.  Current options are:
                                 !     mosaic - read the grid from a mosaic (supergrid)
@@ -189,8 +189,15 @@ GRID_CONFIG = "mosaic"          !
                                 !     cartesian - use a (flat) Cartesian grid.
                                 !     spherical - use a simple spherical grid.
                                 !     mercator - use a Mercator spherical grid.
-GRID_FILE = "ocean_hgrid_isomip.nc" !
+!GRID_FILE = "ocean_hgrid_isomip.nc" !
                                 ! Name of the file from which to read horizontal grid data.
+AXIS_UNITS = "k"
+SOUTHLAT = -80
+LENLAT = 10
+
+
+
+
 USE_TRIPOLAR_GEOLONB_BUG = False !   [Boolean] default = False
                                 ! If true, use older code that incorrectly sets the longitude in some points
                                 ! along the tripolar fold to be off by 360 degrees.
