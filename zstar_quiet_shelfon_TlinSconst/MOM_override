@@ -1,0 +1,6 @@
+! Blank file in which we can put "overrides" for parameters
+#override T_TOP = -1.0                    !   [degC]
+                                ! Initial temperature of the top surface.
+#override T_RANGE = 1.2                   !   [degC]
+                                ! Initial temperature difference (top-bottom).
+
