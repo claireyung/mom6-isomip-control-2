@@ -1,5 +1,5 @@
 ! Blank file in which we can put "overrides" for parameters
-#override S_TOP = 34.5                    !   [PSU]
+#override S_TOP = 33.5                    !   [PSU]
                                 ! Initial salinity of the top surface.
 #override S_RANGE = -1.0                   !   [PSU]
                                 ! Initial salinity difference (top-bottom).
