@@ -7,6 +7,8 @@
 #override TOPO_VARNAME = "depth"
 
 #override REGRIDDING_COORDINATE_MODE = "SIGMA"
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
+#override NK=23
 
 #override S_TOP = 33.5                    !   [PSU]
                                 ! Initial salinity of the top surface.

@@ -7,6 +7,8 @@
 #override TOPO_VARNAME = "depth"
 
 #override REGRIDDING_COORDINATE_MODE = "SIGMA"
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
+#override NK=23
 
 #override T_TOP = -1.0                    !   [degC]
                                 ! Initial temperature of the top surface.
