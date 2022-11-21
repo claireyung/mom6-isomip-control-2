@@ -7,4 +7,4 @@
 #override TOPO_VARNAME = "depth"
 
 #override REGRIDDING_COORDINATE_MODE = "SIGMA"
-
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
