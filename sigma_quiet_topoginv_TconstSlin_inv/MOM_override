@@ -1,0 +1,15 @@
+! Blank file in which we can put "overrides" for parameters
+
+
+#override ICE_SHELF = False ! Turn off the ice shelf so we just have a block of ocean
+#override TOPO_CONFIG = "file"
+#override TOPO_FILE = "Topog_invshelf_IC_200700Grosveld.nc" ! Set topography to be grosveld cavity inverse
+#override TOPO_VARNAME = "depth"
+
+#override REGRIDDING_COORDINATE_MODE = "SIGMA"
+
+#override S_TOP = 33.5                    !   [PSU]
+                                ! Initial salinity of the top surface.
+#override S_RANGE = -1.0                   !   [PSU]
+                                ! Initial salinity difference (top-bottom).
+
