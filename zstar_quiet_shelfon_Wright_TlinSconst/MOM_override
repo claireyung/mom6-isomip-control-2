@@ -1,0 +1,7 @@
+! Blank file in which we can put "overrides" for parameters
+#override EQN_OF_STATE = "WRIGHT"         ! Make EOS nonlinear. default = "WRIGHT"
+#override T_TOP = -1.0                    !   [degC]
+                                ! Initial temperature of the top surface.
+#override T_RANGE = 1.2                   !   [degC]
+                                ! Initial temperature difference (top-bottom).
+
