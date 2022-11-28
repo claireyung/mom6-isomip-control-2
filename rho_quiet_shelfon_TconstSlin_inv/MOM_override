@@ -1,0 +1,12 @@
+! Blank file in which we can put "overrides" for parameters
+#override S_TOP = 33.5                    !   [PSU]
+                                ! Initial salinity of the top surface.
+#override S_RANGE = -1.0                   !   [PSU]
+                                ! Initial salinity difference (top-bottom).
+#override COORD_CONFIG = "linear" !"ALE"
+#override REGRIDDING_COORDINATE_MODE = "RHO"
+#override LIGHTEST_DENSITY = 1027.5    !   [kg m-3] default = 1027.0
+                                ! The reference potential density used for the surface interface.
+#override DENSITY_RANGE = 0.3       !   [kg m-3] default = 2.0
+                                ! The range of reference potential densities across all interfaces.
+
