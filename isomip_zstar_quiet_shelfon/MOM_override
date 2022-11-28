@@ -17,7 +17,7 @@
 ! === module ISOMIP_initialize_topography ===
 #override MINIMUM_DEPTH = 1.0             !   [m] default = 0.0
                                 ! The minimum depth of the ocean.
-#override MAXIMUM_DEPTH = 720.0           !   [m]
+!#override MAXIMUM_DEPTH = 720.0           !   [m]
                                 ! The maximum depth of the ocean.
 #override ROTATION = "beta"               ! default = "2omegasinlat"
                                 ! This specifies how the Coriolis parameter is specified:
