@@ -1,6 +1,11 @@
 format: yamanifest
 version: 1.0
 ---
+work/INPUT/ISOMIP_zgrid.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ISOMIP_zgrid.nc
+  hashes:
+    binhash: 3089732ed15ad908ce51de3ee870a345
+    md5: 12cd0d23282a28bc51f14bce42f50bdb
 work/INPUT/MOM_Shelf_IC.nc:
   fullpath: /home/156/cy8964/ISOMIP/MOM_Shelf_IC.nc
   hashes:

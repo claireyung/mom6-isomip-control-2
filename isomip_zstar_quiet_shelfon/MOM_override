@@ -54,4 +54,5 @@
 #override COORD_CONFIG = "linear"         ! default = "none"
 #override ALE_COORDINATE_CONFIG = "UNIFORM"
 #override REGRIDDING_COORDINATE_MODE = "ZSTAR" ! default = "LAYER"
+#override ANGSTROM = 1.0E-15              !   [m] default = 1.0E-10
 
