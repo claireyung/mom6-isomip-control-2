@@ -52,4 +52,5 @@
                                 ! A scaling factor to convert SURFACE_PRESSURE_VAR from file
                                 ! SURFACE_PRESSURE_FILE into a surface pressure.
 #override COORD_CONFIG = "linear"         ! default = "none"
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
 
