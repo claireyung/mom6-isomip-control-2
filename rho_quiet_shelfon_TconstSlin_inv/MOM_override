@@ -9,4 +9,4 @@
                                 ! The reference potential density used for the surface interface.
 #override DENSITY_RANGE = 0.3       !   [kg m-3] default = 2.0
                                 ! The range of reference potential densities across all interfaces.
-
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
