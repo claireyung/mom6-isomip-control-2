@@ -14,7 +14,7 @@
 #override REGRIDDING_COORDINATE_MODE = "RHO"
 #override LIGHTEST_DENSITY = 1027.0    !   [kg m-3] default = 1027.0
                                 ! The reference potential density used for the surface interface.
-#override DENSITY_RANGE = 0.7       !   [kg m-3] default = 2.0
+#override DENSITY_RANGE = 1.5       !   [kg m-3] default = 2.0
                                 ! The range of reference potential densities across all interfaces.
 #override ALE_COORDINATE_CONFIG = "UNIFORM"
 
