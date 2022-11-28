@@ -53,5 +53,5 @@
                                 ! SURFACE_PRESSURE_FILE into a surface pressure.
 #override COORD_CONFIG = "linear"         ! default = "none"
 #override ALE_COORDINATE_CONFIG = "UNIFORM"
-#override REGRIDDING_COORDINATE_MODE = "ZSTAR" ! default = "LAYER"
+#override REGRIDDING_COORDINATE_MODE = "SIGMA" ! default = "LAYER"
 
