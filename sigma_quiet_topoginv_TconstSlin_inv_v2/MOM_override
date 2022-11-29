@@ -8,7 +8,7 @@
 
 #override REGRIDDING_COORDINATE_MODE = "SIGMA"
 #override ALE_COORDINATE_CONFIG = "UNIFORM"
-#override NK=23
+!#override NK=23
 
 !TS linear
 #override TS_CONFIG = "TS_profile"            !
