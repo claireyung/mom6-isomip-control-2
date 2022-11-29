@@ -5,3 +5,5 @@
                                 !     file - read velocities from the file specified
                                 !       by (TS_FILE).
 #override TS_FILE = "nonlin_ISOMIP_initTS_salttanh.nc"
+TEMP_IC_VAR = "temp"
+SALT_IC_VAR = "salt"
