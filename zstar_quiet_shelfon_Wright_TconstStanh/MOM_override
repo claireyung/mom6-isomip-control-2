@@ -1,0 +1,12 @@
+! Blank file in which we can put "overrides" for parameters
+#override TS_CONFIG = "TS_profile"            !
+                                ! A string that determines how the initial temperatures and salinities are
+                                ! specified for a new run:
+                                !     file - read velocities from the file specified
+                                !       by (TS_FILE).
+#override TS_FILE = "nonlin_ISOMIP_initTS_salttanh.nc"
+TEMP_IC_VAR = "temp"
+SALT_IC_VAR = "salt"
+!EOS
+#override EQN_OF_STATE = "WRIGHT"         ! Make EOS nonlinear. default = "WRIGHT"
+
