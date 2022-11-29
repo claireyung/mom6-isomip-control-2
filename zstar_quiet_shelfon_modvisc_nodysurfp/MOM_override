@@ -1,5 +1,5 @@
 ! Blank file in which we can put "overrides" for parameters
-#override HBBL = 10 ! Make bottom boundary layer the same as HTBL_SHELF for symmetry
+!#override HBBL = 10 ! Make bottom boundary layer the same as HTBL_SHELF for symmetry
 #override DYNAMIC_SURFACE_PRESSURE = False !   [Boolean] default = False
                                 ! If true, add a dynamic pressure due to a viscous ice shelf, for instance.
 
