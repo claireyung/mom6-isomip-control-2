@@ -1,0 +1,19 @@
+! Blank file in which we can put "overrides" for parameters
+! Rho coords
+#override COORD_CONFIG = "linear" !"ALE"
+#override REGRIDDING_COORDINATE_MODE = "RHO"
+#override LIGHTEST_DENSITY = 1027.0    !   [kg m-3] default = 1027.0
+                                ! The reference potential density used for the surface interface.
+#override DENSITY_RANGE = 1.0       !   [kg m-3] default = 2.0
+                                ! The range of reference potential densities across all interfaces.
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
+!TS linear
+#override TS_CONFIG = "TS_profile"            !
+                                ! A string that determines how the initial temperatures and salinities are
+                                ! specified for a new run:
+                                !     file - read velocities from the file specified
+                                !       by (TS_FILE).
+#override TS_FILE = "nonlin_ISOMIP_initTS_salttanh.nc"
+TEMP_IC_VAR = "temp"
+SALT_IC_VAR = "salt"
+
