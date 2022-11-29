@@ -6,5 +6,5 @@
 #override TOPO_FILE = "Topog_invshelf_IC_200700Grosveld.nc" ! Set topography to be grosveld cavity inverse
 #override TOPO_VARNAME = "depth"
 
-#override HBBL = 10 ! Make bottom boundary layer the same as HTBL_SHELF for symmetry
+!#override HBBL = 10 ! Make bottom boundary layer the same as HTBL_SHELF for symmetry
 #override CHANNEL_DRAG=TRUE
