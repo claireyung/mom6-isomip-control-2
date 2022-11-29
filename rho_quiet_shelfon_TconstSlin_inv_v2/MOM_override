@@ -13,7 +13,7 @@
                                 ! specified for a new run:
                                 !     file - read velocities from the file specified
                                 !       by (TS_FILE).
-#override TS_FILE = "nonlin_ISOMIP_initTS_salttanh.nc"
+#override TS_FILE = "lin_ISOMIP_initTS_saltlin.nc"
 TEMP_IC_VAR = "temp"
 SALT_IC_VAR = "salt"
 
