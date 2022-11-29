@@ -1,6 +1,11 @@
 format: yamanifest
 version: 1.0
 ---
+work/INPUT/ISOMIP_zgrid.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ISOMIP_zgrid.nc
+  hashes:
+    binhash: 3089732ed15ad908ce51de3ee870a345
+    md5: 12cd0d23282a28bc51f14bce42f50bdb
 work/INPUT/MOM_Shelf_IC.nc:
   fullpath: /home/156/cy8964/ISOMIP/MOM_Shelf_IC.nc
   hashes:
@@ -46,11 +51,21 @@ work/INPUT/hycom1_75_800m_shrunken.nc:
   hashes:
     binhash: a64f6f0ee9c47843894e5afd64f8574c
     md5: c269b45bf1b95277bca22230460563c7
+work/INPUT/lin_ISOMIP_initTS_saltlin.nc:
+  fullpath: /home/156/cy8964/ISOMIP/lin_ISOMIP_initTS_saltlin.nc
+  hashes:
+    binhash: 6e0e664bb6aa0867338d66ad3a1b3543
+    md5: 4ffed6314607dd88a29b496cfd48a57a
 work/INPUT/nonlin_ISOMIP_initTS.nc:
   fullpath: /home/156/cy8964/ISOMIP/nonlin_ISOMIP_initTS.nc
   hashes:
     binhash: 09e3c572db808d1ccabdac82e9c2718a
     md5: 033c1d52796a7a5b87d2f63a8b7c9f30
+work/INPUT/nonlin_ISOMIP_initTS_salttanh.nc:
+  fullpath: /home/156/cy8964/ISOMIP/nonlin_ISOMIP_initTS_salttanh.nc
+  hashes:
+    binhash: 77c44c7c2d97010647e326f31cc90bcc
+    md5: 0a2aff17bd0c3b44ab781650a251e796
 work/INPUT/ocean_daily_z.nc:
   fullpath: /home/156/cy8964/ISOMIP/ocean_daily_z.nc
   hashes:
