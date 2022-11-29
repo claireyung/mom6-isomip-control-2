@@ -59,8 +59,8 @@ work/INPUT/nonlin_ISOMIP_initTS.nc:
 work/INPUT/nonlin_ISOMIP_initTS_salttanh.nc:
   fullpath: /home/156/cy8964/ISOMIP/nonlin_ISOMIP_initTS_salttanh.nc
   hashes:
-    binhash: 771f4c4d096569a3b65ef898368f619c
-    md5: 4b98493de9817c15ebcefa0a978e73ea
+    binhash: 77c44c7c2d97010647e326f31cc90bcc
+    md5: 0a2aff17bd0c3b44ab781650a251e796
 work/INPUT/ocean_daily_z.nc:
   fullpath: /home/156/cy8964/ISOMIP/ocean_daily_z.nc
   hashes:
