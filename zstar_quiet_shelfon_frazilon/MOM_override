@@ -1,3 +1,6 @@
 ! Blank file in which we can put "overrides" for parameters
 
 #override PRESSURE_DEPENDENT_FRAZIL = True
+#override ISOMIP_T_SUR = -3             !   [degC] default = -1.9
+#override ISOMIP_T_BOT = -3             !   [degC] default = -1.9
+
