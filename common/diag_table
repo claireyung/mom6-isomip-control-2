@@ -79,6 +79,9 @@
 "ocean_model",   "sos",          "sos",              "ocean_daily_z",         "all", "mean", "none",2
 # eddy diffusivity
 "ocean_model_z","KHTH_t","KHTH_t","ocean_daily_z","all",.true.,"none",2
+# frazil
+"ocean_model","frazil_h","frazil_h","mom_%4yr_%3dy","all",.true.,"none",2
+"ocean_model","frazil_heat_tendency","frazil_heat_tendency","mom_%4yr_%3dy","all",.true.,"none",2
 
 
 "ocean_model","dv_dt_visc","dv_dt_visc","mom_%4yr_%3dy","all",.true.,"none",2
