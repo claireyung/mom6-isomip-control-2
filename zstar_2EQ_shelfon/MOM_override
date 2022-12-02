@@ -15,4 +15,3 @@
 #override ICE_SHELF_TEMPERATURE = -20.0   !   [degC] default = -15.0
                                 ! The ISS%area_shelf_htemperature at the center of the ice shelf.
 #override SHELF_INSULATOR = True
-#override COL_THICK_MELT_THRESHOLD = 0.0
