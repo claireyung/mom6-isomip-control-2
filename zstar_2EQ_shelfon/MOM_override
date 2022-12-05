@@ -25,9 +25,9 @@
 !Try to make it like original run?
 !#override RHO_0 = 1035
 !#override C_P = 3925
-#override ISOMIP_S_SUR = 35
-#override ISOMIP_S_BOT = 35
-!#override TFREEZE_FORM = "MILLERO_78"
+!#override ISOMIP_S_SUR = 35
+!#override ISOMIP_S_BOT = 35
+#override TFREEZE_FORM = "MILLERO_78"
 
 !Hallberg edit
 #KV_ML_INVZ2 = 0
