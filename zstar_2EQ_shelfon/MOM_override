@@ -15,3 +15,9 @@
 #override ICE_SHELF_TEMPERATURE = -20.0   !   [degC] default = -15.0
                                 ! The ISS%area_shelf_htemperature at the center of the ice shelf.
 #override SHELF_INSULATOR = True
+
+!Turn diffusion back on
+#override BBL_EFFIC = 0.2
+#override KD = 1.5E-05
+#override KD_MIN = 2.0E-06
+#override KD_ML_TOT = 1.5E-05
