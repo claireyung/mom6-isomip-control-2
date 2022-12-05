@@ -1,3 +1,18 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/zstar_quiet_shelfon_KVMLedit_LOTW_VISCOUS_ML_FLOOR/restart000/MOM.res.nc
+  hashes:
+    binhash: 6b039e39202c76635859d870f0f6a084
+    md5: 1f16d2fe6f49737103bd331b15d3bb41
+work/INPUT/Shelf.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/zstar_quiet_shelfon_KVMLedit_LOTW_VISCOUS_ML_FLOOR/restart000/Shelf.res.nc
+  hashes:
+    binhash: 5ae594172fba82d778ea40e3c56618a5
+    md5: f3b5c7e733c202b8780289ad9431301b
+work/INPUT/ocean_solo.res:
+  fullpath: /scratch/x77/cy8964/mom6/archive/zstar_quiet_shelfon_KVMLedit_LOTW_VISCOUS_ML_FLOOR/restart000/ocean_solo.res
+  hashes:
+    binhash: 7109bee51779a3f71b20e0e930e25498
+    md5: aab9477c93c194235777d391ab7b948d
