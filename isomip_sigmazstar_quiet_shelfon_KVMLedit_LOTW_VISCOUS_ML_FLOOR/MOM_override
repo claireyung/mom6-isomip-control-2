@@ -59,3 +59,9 @@
 #override KV_ML_INVZ2 = 0 ! Hallberg suggestion
 #override LOTW_VISCOUS_ML_FLOOR = True
 
+!TS
+#override ISOMIP_S_SUR = 33.8             !   [ppt] default = 33.8
+                                ! Salinity at the surface (interface)
+#override ISOMIP_S_BOT = 34.55             !   [ppt] default = 34.55
+                                ! Salinity at the bottom (interface)
+
