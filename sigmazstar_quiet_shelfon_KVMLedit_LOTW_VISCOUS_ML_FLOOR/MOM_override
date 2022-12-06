@@ -1,0 +1,6 @@
+! Blank file in which we can put "overrides" for parameters
+#override REGRIDDING_COORDINATE_MODE = "SIGMA_SHELF_ZSTAR"
+
+#override KV_ML_INVZ2 = 0 ! Hallberg suggestion
+#override LOTW_VISCOUS_ML_FLOOR = True
+
