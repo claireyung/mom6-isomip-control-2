@@ -11,8 +11,8 @@
 #"ML_TKE_%4yr_%3dy",   5,"days",1,"days","Time",10,"days"
 #"forcing_%4yr_%3dy",  5,"days",1,"days","Time",10,"days"
 
-"ocean_model","dv_dt_visc","dv_dt_visc","mom_%4yr_%3dy","all",.false.,"none",2
-"ocean_model","du_dt_visc","du_dt_visc","mom_%4yr_%3dy","all",.false.,"none",2
+#"ocean_model","dv_dt_visc","dv_dt_visc","mom_%4yr_%3dy","all",.false.,"none",2
+#"ocean_model","du_dt_visc","du_dt_visc","mom_%4yr_%3dy","all",.false.,"none",2
 "ocean_model","PFu","PFu","mom_%4yr_%3dy","all",.false.,"none",2
 "ocean_model","PFv","PFv","mom_%4yr_%3dy","all",.false.,"none",2
 "ocean_model","CAu","CAu","mom_%4yr_%3dy","all",.false.,"none",2
