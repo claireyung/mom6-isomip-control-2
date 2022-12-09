@@ -1,0 +1,5 @@
+! Blank file in which we can put "overrides" for parameters
+
+#override SHELF_THERMO = False             !   [Boolean] default = False
+                                ! If true, use a thermodynamically interactive ice shelf.
+
