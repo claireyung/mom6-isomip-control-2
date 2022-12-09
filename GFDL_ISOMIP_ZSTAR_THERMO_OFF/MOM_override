@@ -29,7 +29,7 @@
                                 !  HYBGEN - Hybrid coordinate from the Hycom hybgen code
                                 !  SLIGHT - stretched coordinates above continuous isopycnal
                                 !  ADAPTIVE - optimize for smooth neutral density surfaces
-#override ALE_COORDINATE_CONFIG = "FILE:ISOMIP_zgrid.nc,interfaces=zw" ! default = "UNIFORM"
+!#override ALE_COORDINATE_CONFIG = "FILE:ISOMIP_zgrid.nc,interfaces=zw" ! default = "UNIFORM"
                                 ! Determines how to specify the coordinate resolution. Valid options are:
                                 !  PARAM       - use the vector-parameter ALE_RESOLUTION
                                 !  UNIFORM[:N] - uniformly distributed
@@ -44,4 +44,4 @@
                                 !                by a comma or space, for sigma-2 and dz. e.g.
                                 !                HYBRID:vgrid.nc,sigma2,dz
 
-#override NK=144
+!#override NK=144
