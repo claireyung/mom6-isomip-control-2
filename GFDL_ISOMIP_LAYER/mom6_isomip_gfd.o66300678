@@ -1,0 +1,38 @@
+laboratory path:  /scratch/x77/cy8964/mom6
+binary path:  /scratch/x77/cy8964/mom6/bin
+input path:  /scratch/x77/cy8964/mom6/input
+work path:  /scratch/x77/cy8964/mom6/work
+archive path:  /scratch/x77/cy8964/mom6/archive
+nruns: 1 nruns_per_submit: 1 subrun: 1
+Setting up mom6
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Updating full hashes for 19 files in manifests/input.yaml
+Creating restart manifest
+Writing manifests/input.yaml
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+git add /home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER/config.yaml
+git add /home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER/input.nml
+git add /home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER/MOM_input
+git add /home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER/diag_table
+git add /home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER/MOM_override
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2022-12-09 12:05:45: Run 0"
+mpirun  -wdir /scratch/x77/cy8964/mom6/work/GFDL_ISOMIP_LAYER -np 48  /scratch/x77/cy8964/mom6/work/GFDL_ISOMIP_LAYER/MOM6
+
+======================================================================================
+                  Resource Usage on 2022-12-09 12:06:59:
+   Job Id:             66300678.gadi-pbs
+   Project:            x77
+   Exit Status:        0
+   Service Units:      2.08
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:47:23        
+   Memory Requested:   192.0GB               Memory Used: 17.19GB         
+   Walltime requested: 00:15:00            Walltime Used: 00:01:18        
+   JobFS requested:    10.0GB                 JobFS used: 0B              
+======================================================================================
