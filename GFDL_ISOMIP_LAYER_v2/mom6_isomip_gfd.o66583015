@@ -1,0 +1,43 @@
+laboratory path:  /scratch/x77/cy8964/mom6
+binary path:  /scratch/x77/cy8964/mom6/bin
+input path:  /scratch/x77/cy8964/mom6/input
+work path:  /scratch/x77/cy8964/mom6/work
+archive path:  /scratch/x77/cy8964/mom6/archive
+nruns: 1 nruns_per_submit: 1 subrun: 1
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Creating restart manifest
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+git add /home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER_v2/config.yaml
+git add /home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER_v2/input.nml
+git add /home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER_v2/MOM_input
+git add /home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER_v2/diag_table
+git add /home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER_v2/MOM_override
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2022-12-12 11:27:39: Run 0"
+mpirun  -wdir /scratch/x77/cy8964/mom6/work/GFDL_ISOMIP_LAYER_v2 -np 48  /scratch/x77/cy8964/mom6/work/GFDL_ISOMIP_LAYER_v2/MOM6
+/home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER_v2/mom6.err /scratch/x77/cy8964/mom6/archive/GFDL_ISOMIP_LAYER_v2/error_logs/mom6.66583015.gadi-pbs.err
+/home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER_v2/mom6.out /scratch/x77/cy8964/mom6/archive/GFDL_ISOMIP_LAYER_v2/error_logs/mom6.66583015.gadi-pbs.out
+/home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER_v2/job.yaml /scratch/x77/cy8964/mom6/archive/GFDL_ISOMIP_LAYER_v2/error_logs/job.66583015.gadi-pbs.yaml
+/home/156/cy8964/mom6-control/isomip-control/GFDL_ISOMIP_LAYER_v2/env.yaml /scratch/x77/cy8964/mom6/archive/GFDL_ISOMIP_LAYER_v2/error_logs/env.66583015.gadi-pbs.yaml
+
+======================================================================================
+                  Resource Usage on 2022-12-12 11:27:57:
+   Job Id:             66583015.gadi-pbs
+   Project:            x77
+   Exit Status:        1
+   Service Units:      0.51
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 00:02:36        
+   Memory Requested:   192.0GB               Memory Used: 13.33GB         
+   Walltime requested: 00:15:00            Walltime Used: 00:00:19        
+   JobFS requested:    10.0GB                 JobFS used: 0B              
+======================================================================================
