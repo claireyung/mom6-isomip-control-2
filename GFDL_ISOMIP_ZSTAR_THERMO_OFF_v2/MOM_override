@@ -1,0 +1,48 @@
+! Blank file in which we can put "overrides" for parameters
+
+#override COORD_CONFIG = "ALE"            ! default = "none"
+                                ! This specifies how layers are to be defined:
+                                !     ALE or none - used to avoid defining layers in ALE mode
+                                !     file - read coordinate information from the file
+                                !       specified by (COORD_FILE).
+                                !     BFB - Custom coords for buoyancy-forced basin case
+                                !       based on SST_S, T_BOT and DRHO_DT.
+                                !     linear - linear based on interfaces not layers
+                                !     layer_ref - linear based on layer densities
+                                !     ts_ref - use reference temperature and salinity
+                                !     ts_range - use range of temperature and salinity
+                                !       (T_REF and S_REF) to determine surface density
+                                !       and GINT calculate internal densities.
+                                !     gprime - use reference density (RHO_0) for surface
+                                !       density and GINT calculate internal densities.
+                                !     ts_profile - use temperature and salinity profiles
+                                !       (read from COORD_FILE) to set layer densities.
+                                !     USER - call a user modified routine.
+#override USE_REGRIDDING = True
+#override REGRIDDING_COORDINATE_MODE = "ZSTAR" ! default = "LAYER"
+                                ! Coordinate mode for vertical regridding. Choose among the following
+                                ! possibilities:  LAYER - Isopycnal or stacked shallow water layers
+                                !  ZSTAR, Z* - stretched geopotential z*
+                                !  SIGMA_SHELF_ZSTAR - stretched geopotential z* ignoring shelf
+                                !  SIGMA - terrain following coordinates
+                                !  RHO   - continuous isopycnal
+                                !  HYCOM1 - HyCOM-like hybrid coordinate
+                                !  HYBGEN - Hybrid coordinate from the Hycom hybgen code
+                                !  SLIGHT - stretched coordinates above continuous isopycnal
+                                !  ADAPTIVE - optimize for smooth neutral density surfaces
+!#override ALE_COORDINATE_CONFIG = "FILE:ISOMIP_zgrid.nc,interfaces=zw" ! default = "UNIFORM"
+                                ! Determines how to specify the coordinate resolution. Valid options are:
+                                !  PARAM       - use the vector-parameter ALE_RESOLUTION
+                                !  UNIFORM[:N] - uniformly distributed
+                                !  FILE:string - read from a file. The string specifies
+                                !                the filename and variable name, separated
+                                !                by a comma or space, e.g. FILE:lev.nc,dz
+                                !                or FILE:lev.nc,interfaces=zw
+                                !  WOA09[:N]   - the WOA09 vertical grid (approximately)
+                                !  FNC1:string - FNC1:dz_min,H_total,power,precision
+                                !  HYBRID:string - read from a file. The string specifies
+                                !                the filename and two variable names, separated
+                                !                by a comma or space, for sigma-2 and dz. e.g.
+                                !                HYBRID:vgrid.nc,sigma2,dz
+
+!#override NK=144
