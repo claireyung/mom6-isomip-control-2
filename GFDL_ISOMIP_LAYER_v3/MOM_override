@@ -1,5 +1,6 @@
 ! Blank file in which we can put "overrides" for parameters
 
+#override USE_REGRIDDING = True
 #override ALE_COORDINATE_CONFIG = "UNIFORM"
 #override REGRIDDING_COORDINATE_MODE = "LAYER" ! default = "LAYER"
 
