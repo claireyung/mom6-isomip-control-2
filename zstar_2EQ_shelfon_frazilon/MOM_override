@@ -1,0 +1,36 @@
+! Blank file in which we can put "overrides" for parameters
+
+!Turn shelf thermodynamics on
+! === module MOM_ice_shelf ===
+#override SHELF_THERMO = True
+
+#override IGNORE_FLUXES_OVER_LAND = True
+
+#override SHELF_THREE_EQN = False         !   [Boolean] default = True
+                                ! If true, use the three equation expression of consistency to calculate the
+                                ! fluxes at the ice-ocean interface.
+#override SHELF_2EQ_GAMMA_T = 0.0001     !   [m s-1]
+                                ! If SHELF_THREE_EQN is false, this the fixed turbulent exchange velocity at the
+                                ! ice-ocean interface.
+#override ICE_SHELF_TEMPERATURE = -20.0   !   [degC] default = -15.0
+                                ! The ISS%area_shelf_htemperature at the center of the ice shelf.
+#override SHELF_INSULATOR = True
+
+!Turn diffusion back on
+#override BBL_EFFIC = 0.2
+#override KD = 1.5E-05
+#override KD_MIN = 2.0E-06
+#override KD_ML_TOT = 1.5E-05
+
+!Try to make it like original run?
+!#override RHO_0 = 1035
+!#override C_P = 3925
+!#override ISOMIP_S_SUR = 35
+!#override ISOMIP_S_BOT = 35
+#override TFREEZE_FORM = "MILLERO_78"
+
+!Hallberg edit
+#KV_ML_INVZ2 = 0
+
+!Frazil on
+#override FRAZIL = True
