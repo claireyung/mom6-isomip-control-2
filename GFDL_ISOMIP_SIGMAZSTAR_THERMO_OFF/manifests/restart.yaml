@@ -1,3 +1,18 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/GFDL_ISOMIP_SIGMAZSTAR_THERMO_OFF/restart000/MOM.res.nc
+  hashes:
+    binhash: 80da192bd848e8fec4e5fd9978f05186
+    md5: 15fd820f796a9d6ae681fc02a91b3421
+work/INPUT/Shelf.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/GFDL_ISOMIP_SIGMAZSTAR_THERMO_OFF/restart000/Shelf.res.nc
+  hashes:
+    binhash: 7d9d9603548f9ed67f9736fa97198a56
+    md5: 0f12d8e0e5ae07352043f0e1091d4f41
+work/INPUT/ocean_solo.res:
+  fullpath: /scratch/x77/cy8964/mom6/archive/GFDL_ISOMIP_SIGMAZSTAR_THERMO_OFF/restart000/ocean_solo.res
+  hashes:
+    binhash: faeb62135f3757157f86f5a6b05e1985
+    md5: aab9477c93c194235777d391ab7b948d
