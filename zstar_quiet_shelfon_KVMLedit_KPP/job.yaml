@@ -1,0 +1,9 @@
+PAYU_CONTROL_DIR: /home/156/cy8964/mom6-control/isomip-control/zstar_quiet_shelfon_KVMLedit_KPP
+PAYU_CURRENT_RUN: 0
+PAYU_FINISH_TIME: '2022-12-14T10:50:03.430625'
+PAYU_JOB_STATUS: 1
+PAYU_N_RUNS: 1
+PAYU_PATH: /g/data3/hh5/public/apps/miniconda3/envs/analysis3-22.07/bin
+PAYU_RUN_ID: 7e5adde6b952fb861cf9f819ef7e801470cc9b44
+PAYU_START_TIME: '2022-12-14T10:49:54.655911'
+PAYU_WALLTIME: 8.774714 s
