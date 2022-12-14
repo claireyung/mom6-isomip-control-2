@@ -2,17 +2,17 @@ format: yamanifest
 version: 1.0
 ---
 work/INPUT/MOM.res.nc:
-  fullpath: /scratch/x77/cy8964/mom6/archive/zstar_2EQ_shelfon/restart002/MOM.res.nc
+  fullpath: /scratch/x77/cy8964/mom6/archive/zstar_2EQ_shelfon/restart003/MOM.res.nc
   hashes:
-    binhash: d755d604cd811e19d4770c99316f1a24
-    md5: 25899f65554fd0cff4bfa2d6ee1c3e8e
+    binhash: f076ba7889e0e1d175786a4102f34a39
+    md5: 58abedc9d93b77175509c4b933cd32b8
 work/INPUT/Shelf.res.nc:
-  fullpath: /scratch/x77/cy8964/mom6/archive/zstar_2EQ_shelfon/restart002/Shelf.res.nc
+  fullpath: /scratch/x77/cy8964/mom6/archive/zstar_2EQ_shelfon/restart003/Shelf.res.nc
   hashes:
-    binhash: 2b7e4755bee30d1f6400b92cae144796
-    md5: d931f72bc1a788861dbd3e6d13054283
+    binhash: ef800266f2818ee21ee4590e2ccc2ed3
+    md5: d22cd84ae0bfbac36b59f37c77f5028f
 work/INPUT/ocean_solo.res:
-  fullpath: /scratch/x77/cy8964/mom6/archive/zstar_2EQ_shelfon/restart002/ocean_solo.res
+  fullpath: /scratch/x77/cy8964/mom6/archive/zstar_2EQ_shelfon/restart003/ocean_solo.res
   hashes:
-    binhash: 02972ea8ef03aefe7a0c46a283ff3487
-    md5: bbb266c1619dd5215bda5545e606f0e1
+    binhash: 2c31309bf9aa6032efe80041576de6b1
+    md5: d8f166d6b2ce1c7cbe5a181841c87e7e
