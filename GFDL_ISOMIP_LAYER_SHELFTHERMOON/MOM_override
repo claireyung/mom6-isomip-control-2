@@ -20,4 +20,19 @@
                                 ! TFREEZE_FORM determines which expression should be used for the freezing
                                 ! point.  Currently, the valid choices are "LINEAR", "MILLERO_78", "TEOS10"
 
+! === module MOM_surface_forcing ===
+#override VARIABLE_WINDS = False          !   [Boolean] default = True
+                                ! If true, the winds vary in time after the initialization.
+#override VARIABLE_BUOYFORCE = False      !   [Boolean] default = True
+                                ! If true, the buoyancy forcing varies in time after the initialization of the
+                                ! model.
+#override BUOY_CONFIG = "NONE"            ! default = "zero"
+                                ! The character string that indicates how buoyancy forcing is specified. Valid
+                                ! options include (file), (zero), (linear), (USER), (BFB) and (NONE).
+#override WIND_CONFIG = "zero"            ! default = "zero"
+                                ! The character string that indicates how wind forcing is specified. Valid
+                                ! options include (file), (2gyre), (1gyre), (gyres), (zero), and (USER).
+#override GUST_CONST = 0.02               !   [Pa] default = 0.0
+                                ! The background gustiness in the winds.
+
 
