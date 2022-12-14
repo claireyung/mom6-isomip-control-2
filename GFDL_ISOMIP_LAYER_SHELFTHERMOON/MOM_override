@@ -3,6 +3,7 @@
 #override SHELF_THERMO = True
 
 ! ADD EOS
+#override BULKMIXEDLAYER = False
 ! === module MOM_EOS ===
 #override EQN_OF_STATE = "LINEAR"         ! default = "WRIGHT"
                                 ! EQN_OF_STATE determines which ocean equation of state should be used.
