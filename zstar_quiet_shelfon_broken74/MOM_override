@@ -1,0 +1,4 @@
+! Blank file in which we can put "overrides" for parameters
+
+#override ICE_THICKNESS_FILE = "MOM_Shelf_IC_200700Grosveld_cut74.nc" ! default = "ice_shelf_h.nc"
+
