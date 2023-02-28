@@ -1,0 +1,11 @@
+! Blank file in which we can put "overrides" for parameters
+#override ICE_THICKNESS_FILE = "Ocean1_3D.nc"
+#override SURFACE_PRESSURE_FILE = "Ocean1_3D.nc"
+
+! Change regridding coordinate
+#override COORD_CONFIG = "linear"         ! default = "none"
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
+#override REGRIDDING_COORDINATE_MODE = "SIGMA_SHELF_ZSTAR" ! default = "LAYER"
+
+! Make higher res
+#override NK = 50
