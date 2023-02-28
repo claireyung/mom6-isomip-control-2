@@ -16,6 +16,11 @@ work/INPUT/MOM_Shelf_IC_200700Grosveld.nc:
   hashes:
     binhash: dde0ccc78a69b781bd1cd65d22175428
     md5: 5b80652e9f7664369b0835a8574a4fe4
+work/INPUT/MOM_Shelf_IC_200700Grosveld_cut74.nc:
+  fullpath: /home/156/cy8964/ISOMIP/MOM_Shelf_IC_200700Grosveld_cut74.nc
+  hashes:
+    binhash: 8b2844046beb24fb4051b538480e6cbd
+    md5: d331b58066bcc3628a2422d48c6a8727
 work/INPUT/MOM_Shelf_IC_Mathiot.nc:
   fullpath: /home/156/cy8964/ISOMIP/MOM_Shelf_IC_Mathiot.nc
   hashes:
@@ -51,11 +56,21 @@ work/INPUT/hycom1_75_800m_shrunken.nc:
   hashes:
     binhash: a64f6f0ee9c47843894e5afd64f8574c
     md5: c269b45bf1b95277bca22230460563c7
+work/INPUT/lin_ISOMIP_initTS_saltlin.nc:
+  fullpath: /home/156/cy8964/ISOMIP/lin_ISOMIP_initTS_saltlin.nc
+  hashes:
+    binhash: 6e0e664bb6aa0867338d66ad3a1b3543
+    md5: 4ffed6314607dd88a29b496cfd48a57a
 work/INPUT/nonlin_ISOMIP_initTS.nc:
   fullpath: /home/156/cy8964/ISOMIP/nonlin_ISOMIP_initTS.nc
   hashes:
     binhash: 09e3c572db808d1ccabdac82e9c2718a
     md5: 033c1d52796a7a5b87d2f63a8b7c9f30
+work/INPUT/nonlin_ISOMIP_initTS_salttanh.nc:
+  fullpath: /home/156/cy8964/ISOMIP/nonlin_ISOMIP_initTS_salttanh.nc
+  hashes:
+    binhash: 77c44c7c2d97010647e326f31cc90bcc
+    md5: 0a2aff17bd0c3b44ab781650a251e796
 work/INPUT/ocean_daily_z.nc:
   fullpath: /home/156/cy8964/ISOMIP/ocean_daily_z.nc
   hashes:
