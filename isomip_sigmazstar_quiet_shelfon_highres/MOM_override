@@ -1,0 +1,57 @@
+! Blank file in which we can put "overrides" for parameters
+! MOM_override to make ISOMIP config
+#override NIGLOBAL = 240                  !
+                                ! The total number of thickness grid points in the x-direction in the physical
+                                ! domain. With STATIC_MEMORY_ this is set in MOM_memory.h at compile time.
+#override NJGLOBAL = 40                   !
+                                ! The total number of thickness grid points in the y-direction in the physical
+                                ! domain. With STATIC_MEMORY_ this is set in MOM_memory.h at compile time.
+#override GRID_CONFIG = "cartesian"
+#override AXIS_UNITS = "k"   
+#override SOUTHLAT = 0.0                  !   [k]
+#override LENLAT = 80.0                   !   [k]
+#override WESTLON = 320.0                 !   [k] default = 0.0
+#override LENLON = 480.0                  !   [k]
+#override TOPO_CONFIG = "ISOMIP"      
+
+! === module ISOMIP_initialize_topography ===
+#override MINIMUM_DEPTH = 1.0             !   [m] default = 0.0
+                                ! The minimum depth of the ocean.
+#override MAXIMUM_DEPTH = 720.0           !   [m]
+                                ! The maximum depth of the ocean.
+#override ROTATION = "beta"               ! default = "2omegasinlat"
+                                ! This specifies how the Coriolis parameter is specified:
+                                !     2omegasinlat - Use twice the planetary rotation rate
+                                !       times the sine of latitude.
+                                !     betaplane - Use a beta-plane or f-plane.
+                                !     USER - call a user modified routine.
+#override F_0 = -1.408706225059977E-04    !   [s-1] default = 0.0
+                                ! The reference value of the Coriolis parameter with the betaplane option.
+#override NK = 50                         !   [nondim]
+
+#override ICE_PROFILE_CONFIG = "FILE"     !
+                                ! This specifies how the initial ice profile is specified. Valid values are:
+                                ! CHANNEL, FILE, and USER.
+#override ICE_THICKNESS_FILE = "Ocean1_3D.nc" ! default = "ice_shelf_h.nc"
+                                ! The file from which the ice bathymetry and area are read.
+#override ICE_THICKNESS_VARNAME = "thick" ! default = "h_shelf"
+                                ! The name of the thickness variable in ICE_THICKNESS_FILE.
+#override ICE_AREA_VARNAME = "area"       ! default = "area_shelf_h"
+                                ! The name of the area variable in ICE_THICKNESS_FILE.
+#override THICKNESS_CONFIG = "ISOMIP"     ! default = "uniform"
+#override TS_CONFIG = "ISOMIP"            !
+#override TRIM_IC_FOR_P_SURF = True       !   [Boolean] default = False
+                                ! If true, cuts way the top of the column for initial conditions at the depth
+                                ! where the hydrostatic pressure matches the imposed surface pressure which is
+                                ! read from file.
+#override SURFACE_PRESSURE_FILE = "Ocean1_3D.nc" !
+                                ! The initial condition file for the surface pressure exerted by ice.
+#override SURFACE_PRESSURE_VAR = "thick"  !   [Pa] default = ""
+                                ! The initial condition variable for the surface pressure exerted by ice.
+#override SURFACE_PRESSURE_SCALE = 8820.0 !   [file dependent] default = 1.0
+                                ! A scaling factor to convert SURFACE_PRESSURE_VAR from file
+                                ! SURFACE_PRESSURE_FILE into a surface pressure.
+#override COORD_CONFIG = "linear"         ! default = "none"
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
+#override REGRIDDING_COORDINATE_MODE = "SIGMA_SHELF_ZSTAR" ! default = "LAYER"
+
