@@ -1,0 +1,9 @@
+PAYU_CONTROL_DIR: /home/156/cy8964/mom6-control/isomip-control/isomip_zstar_quiet_shelfon_highres
+PAYU_CURRENT_RUN: 0
+PAYU_FINISH_TIME: '2023-03-01T09:52:06.058286'
+PAYU_JOB_STATUS: 1
+PAYU_N_RUNS: 1
+PAYU_PATH: /g/data3/hh5/public/apps/miniconda3/envs/analysis3-22.07/bin
+PAYU_RUN_ID: 43251f721284577cdf90dcdd3426b88165aea04a
+PAYU_START_TIME: '2023-03-01T09:51:53.840345'
+PAYU_WALLTIME: 12.217941 s

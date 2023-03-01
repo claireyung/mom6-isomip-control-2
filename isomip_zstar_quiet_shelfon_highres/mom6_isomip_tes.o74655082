@@ -1,0 +1,43 @@
+laboratory path:  /scratch/x77/cy8964/mom6
+binary path:  /scratch/x77/cy8964/mom6/bin
+input path:  /scratch/x77/cy8964/mom6/input
+work path:  /scratch/x77/cy8964/mom6/work
+archive path:  /scratch/x77/cy8964/mom6/archive
+nruns: 1 nruns_per_submit: 1 subrun: 1
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Creating restart manifest
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+git add /home/156/cy8964/mom6-control/isomip-control/isomip_zstar_quiet_shelfon_highres/config.yaml
+git add /home/156/cy8964/mom6-control/isomip-control/isomip_zstar_quiet_shelfon_highres/input.nml
+git add /home/156/cy8964/mom6-control/isomip-control/isomip_zstar_quiet_shelfon_highres/MOM_input
+git add /home/156/cy8964/mom6-control/isomip-control/isomip_zstar_quiet_shelfon_highres/diag_table
+git add /home/156/cy8964/mom6-control/isomip-control/isomip_zstar_quiet_shelfon_highres/MOM_override
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2023-03-01 09:51:56: Run 0"
+mpirun  -wdir /scratch/x77/cy8964/mom6/work/isomip_zstar_quiet_shelfon_highres -np 96  /scratch/x77/cy8964/mom6/work/isomip_zstar_quiet_shelfon_highres/MOM6
+/home/156/cy8964/mom6-control/isomip-control/isomip_zstar_quiet_shelfon_highres/mom6.err /scratch/x77/cy8964/mom6/archive/isomip_zstar_quiet_shelfon_highres/error_logs/mom6.74655082.gadi-pbs.err
+/home/156/cy8964/mom6-control/isomip-control/isomip_zstar_quiet_shelfon_highres/mom6.out /scratch/x77/cy8964/mom6/archive/isomip_zstar_quiet_shelfon_highres/error_logs/mom6.74655082.gadi-pbs.out
+/home/156/cy8964/mom6-control/isomip-control/isomip_zstar_quiet_shelfon_highres/job.yaml /scratch/x77/cy8964/mom6/archive/isomip_zstar_quiet_shelfon_highres/error_logs/job.74655082.gadi-pbs.yaml
+/home/156/cy8964/mom6-control/isomip-control/isomip_zstar_quiet_shelfon_highres/env.yaml /scratch/x77/cy8964/mom6/archive/isomip_zstar_quiet_shelfon_highres/error_logs/env.74655082.gadi-pbs.yaml
+
+======================================================================================
+                  Resource Usage on 2023-03-01 09:52:19:
+   Job Id:             74655082.gadi-pbs
+   Project:            x77
+   Exit Status:        1
+   Service Units:      1.33
+   NCPUs Requested:    96                     NCPUs Used: 96              
+                                           CPU Time Used: 00:08:11        
+   Memory Requested:   384.0GB               Memory Used: 16.44GB         
+   Walltime requested: 01:00:00            Walltime Used: 00:00:25        
+   JobFS requested:    10.0GB                 JobFS used: 0B              
+======================================================================================

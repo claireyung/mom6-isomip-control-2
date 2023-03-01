@@ -1,0 +1,2455 @@
+
+WARNING from PE     0: MOM_file_parser : NIGLOBAL over-ridden.  Line: 'NIGLOBAL = 240' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : NJGLOBAL over-ridden.  Line: 'NJGLOBAL = 40' in file MOM_override.
+
+
+WARNING from PE     0: diag_manager_mod::diag_manager_init: DIAG_MANAGER_NML not found in input.nml.  Using defaults.
+
+
+WARNING from PE     0: MOM_file_parser : GRID_CONFIG over-ridden.  Line: 'GRID_CONFIG = "cartesian"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : AXIS_UNITS over-ridden.  Line: 'AXIS_UNITS = "k"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : SOUTHLAT over-ridden.  Line: 'SOUTHLAT = 0.0' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : LENLAT over-ridden.  Line: 'LENLAT = 80.0' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : LENLON over-ridden.  Line: 'LENLON = 480.0' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : TOPO_CONFIG over-ridden.  Line: 'TOPO_CONFIG = "ISOMIP"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : MAXIMUM_DEPTH over-ridden.  Line: 'MAXIMUM_DEPTH = 720.0' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : MINIMUM_DEPTH over-ridden.  Line: 'MINIMUM_DEPTH = 1.0' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : NK over-ridden.  Line: 'NK = 36' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : COORD_CONFIG over-ridden.  Line: 'COORD_CONFIG = "linear"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : REGRIDDING_COORDINATE_MODE over-ridden.  Line: 'REGRIDDING_COORDINATE_MODE = "ZSTAR"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : ALE_COORDINATE_CONFIG over-ridden.  Line: 'ALE_COORDINATE_CONFIG = "UNIFORM"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : ICE_PROFILE_CONFIG over-ridden.  Line: 'ICE_PROFILE_CONFIG = "FILE"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : ICE_THICKNESS_FILE over-ridden.  Line: 'ICE_THICKNESS_FILE = "Ocean1_3D.nc"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : ICE_AREA_VARNAME over-ridden.  Line: 'ICE_AREA_VARNAME = "area"' in file MOM_override.
+
+
+WARNING from PE     0: Ice shelf thickness initialized without setting the shelf mask from variable h_mask, which does not exist in INPUT/Ocean1_3D.nc
+
+
+WARNING from PE     0: MOM_file_parser : THICKNESS_CONFIG over-ridden.  Line: 'THICKNESS_CONFIG = "ISOMIP"' in file MOM_override.
+
+
+WARNING from PE     0: MOM_file_parser : TS_CONFIG over-ridden.  Line: 'TS_CONFIG = "ISOMIP"' in file MOM_override.
+
+
+WARNING from PE     0: Previous msg:DT_FORCING = 300.0              !   [s] default = 0.0
+
+
+WARNING from PE     0: New message :DT_FORCING = 300.0              !   [s] default = 300.0
+
+
+WARNING from PE     0: Encountered inconsistent documentation line for parameter DT_FORCING!
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -2.9719556590680503E+02 vs.  -2.9718414221305966E+02 at   4.8500E+02  1.5000E+01     84      9
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.5071675955553513E+02 vs.  -1.5069622494426653E+02 at   5.3100E+02  6.9000E+01    107     36
+
+
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -2.9660752416152417E+02 vs.  -2.9650571175834023E+02 at   4.8700E+02  1.5000E+01     85      9
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.5075220877605847E+02 vs.  -1.5069622494426653E+02 at   5.3100E+02  6.9000E+01    107     36
+
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9364181184838236E+02 vs.  -2.9361274240179921E+02 at   4.9900E+02  6.5000E+01     91     34
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9367088129758616E+02 vs.  -2.9361274240179921E+02 at   4.9900E+02  6.5000E+01     91     34
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -2.9726603135540341E+02 vs.  -2.9718414221305966E+02 at   4.8500E+02  1.5000E+01     84      9
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -2.9685653315522546E+02 vs.  -2.9650571175834023E+02 at   4.8700E+02  1.5000E+01     85      9
+
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9361274244493472E+02 vs.  -2.9361274240179921E+02 at   4.9900E+02  6.5000E+01     91     34
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9361274251916115E+02 vs.  -2.9361274240179921E+02 at   4.9900E+02  6.5000E+01     91     34
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.5089237695920914E+02 vs.  -1.5069622494426653E+02 at   5.3100E+02  6.9000E+01    107     36
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.5226226427535940E+02 vs.  -1.5225927812271357E+02 at   5.3300E+02  6.9000E+01    108     36
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -2.9324554267598126E+02 vs.  -2.9319260216243322E+02 at   5.0300E+02  6.5000E+01     93     34
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -2.9333965458353907E+02 vs.  -2.9319260216243322E+02 at   5.0300E+02  6.5000E+01     93     34
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9894813926969476E+02 vs.  -1.9894813926968260E+02 at   4.8700E+02  1.3000E+01     85      8
+
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9563502967379006E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  6.7000E+01     93     35
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9554583450306754E+02 vs.  -1.9554583450305955E+02 at   5.0500E+02  6.7000E+01     94     35
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.5097402804539888E+02 vs.  -1.5069622494426653E+02 at   5.3100E+02  6.9000E+01    107     36
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9831938420379689E+02 vs.  -1.9831938420378191E+02 at   4.8900E+02  1.3000E+01     86      8
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9894813926969474E+02 vs.  -1.9894813926968260E+02 at   4.8700E+02  1.3000E+01     85      8
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9831938420379689E+02 vs.  -1.9831938420378191E+02 at   4.8900E+02  1.3000E+01     86      8
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9361274329899896E+02 vs.  -2.9361274240179921E+02 at   4.9900E+02  6.5000E+01     91     34
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9361274400512286E+02 vs.  -2.9361274240179921E+02 at   4.9900E+02  6.5000E+01     91     34
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -2.9467508855435273E+02 vs.  -2.9319260216243322E+02 at   5.0300E+02  6.5000E+01     93     34
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9563502967379006E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  6.7000E+01     93     35
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4509371688949315E+02 vs.  -1.4504983089868665E+02 at   5.2100E+02  6.9000E+01    102     36
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4599862361394239E+02 vs.  -1.4590809819310584E+02 at   5.2300E+02  6.9000E+01    103     36
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9580625227624952E+02 vs.  -1.9580625227624665E+02 at   5.0100E+02  1.3000E+01     92      8
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9580625227625328E+02 vs.  -1.9580625227624665E+02 at   5.0100E+02  1.3000E+01     92      8
+
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9580625227626587E+02 vs.  -1.9580625227624665E+02 at   5.0100E+02  1.3000E+01     92      8
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9563502967378716E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  1.3000E+01     93      8
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9962656972440396E+02 vs.  -1.9962656972440203E+02 at   4.8500E+02  1.3000E+01     84      8
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9894813926971275E+02 vs.  -1.9894813926968260E+02 at   4.8700E+02  1.3000E+01     85      8
+
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991314985E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991314985E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4505893254826327E+02 vs.  -1.4504983089868665E+02 at   5.2100E+02  6.9000E+01    102     36
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4598154086150137E+02 vs.  -1.4590809819310584E+02 at   5.2300E+02  6.9000E+01    103     36
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -2.9384738211352771E+02 vs.  -2.9319260216243322E+02 at   5.0300E+02  6.5000E+01     93     34
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9563502967381035E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  6.7000E+01     93     35
+
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9962656972440394E+02 vs.  -1.9962656972440203E+02 at   4.8500E+02  1.3000E+01     84      8
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9894813926971275E+02 vs.  -1.9894813926968260E+02 at   4.8700E+02  1.3000E+01     85      8
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9580625227626578E+02 vs.  -1.9580625227624665E+02 at   5.0100E+02  1.3000E+01     92      8
+
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4511735448101689E+02 vs.  -1.4504983089868665E+02 at   5.2100E+02  6.9000E+01    102     36
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4605816315870635E+02 vs.  -1.4590809819310584E+02 at   5.2300E+02  6.9000E+01    103     36
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -2.9496891772617954E+02 vs.  -2.9319260216243322E+02 at   5.0300E+02  6.5000E+01     93     34
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9563502967381032E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  6.7000E+01     93     35
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9361274486536973E+02 vs.  -2.9361274240179921E+02 at   4.9900E+02  6.5000E+01     91     34
+
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991314985E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9563502967378710E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  1.3000E+01     93      8
+
+
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9580625227629758E+02 vs.  -1.9580625227624665E+02 at   5.0100E+02  1.3000E+01     92      8
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9563502967381257E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  1.3000E+01     93      8
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9962656972441332E+02 vs.  -1.9962656972440203E+02 at   4.8500E+02  1.3000E+01     84      8
+
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9563502967382132E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  6.7000E+01     93     35
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9554583450306751E+02 vs.  -1.9554583450305955E+02 at   5.0500E+02  6.7000E+01     94     35
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991317154E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991317154E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4507731593417361E+02 vs.  -1.4504983089868665E+02 at   5.2100E+02  6.9000E+01    102     36
+
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9894813926973458E+02 vs.  -1.9894813926968260E+02 at   4.8700E+02  1.3000E+01     85      8
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4596146863339962E+02 vs.  -1.4590809819310584E+02 at   5.2300E+02  6.9000E+01    103     36
+
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9580625227629758E+02 vs.  -1.9580625227624665E+02 at   5.0100E+02  1.3000E+01     92      8
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9563502967381257E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  1.3000E+01     93      8
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9962656972441329E+02 vs.  -1.9962656972440203E+02 at   4.8500E+02  1.3000E+01     84      8
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9563502967382132E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  6.7000E+01     93     35
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9554583450306751E+02 vs.  -1.9554583450305955E+02 at   5.0500E+02  6.7000E+01     94     35
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9361274758990817E+02 vs.  -2.9361274240179921E+02 at   4.9900E+02  6.5000E+01     91     34
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991317154E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4508271614236116E+02 vs.  -1.4504983089868665E+02 at   5.2100E+02  6.9000E+01    102     36
+
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9894813926973455E+02 vs.  -1.9894813926968260E+02 at   4.8700E+02  1.3000E+01     85      8
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4596414504816315E+02 vs.  -1.4590809819310584E+02 at   5.2300E+02  6.9000E+01    103     36
+
+
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9894813926975525E+02 vs.  -1.9894813926968260E+02 at   4.8700E+02  1.3000E+01     85      8
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9831938420385907E+02 vs.  -1.9831938420378191E+02 at   4.8900E+02  1.3000E+01     86      8
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9580625227629758E+02 vs.  -1.9580625227624665E+02 at   5.0100E+02  1.3000E+01     92      8
+
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991319320E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991319320E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9563502967382129E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  6.7000E+01     93     35
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9554583450306751E+02 vs.  -1.9554583450305955E+02 at   5.0500E+02  6.7000E+01     94     35
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4505273069346353E+02 vs.  -1.4504983089868665E+02 at   5.2100E+02  6.9000E+01    102     36
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9563502967381254E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  1.3000E+01     93      8
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4592681990781514E+02 vs.  -1.4590809819310584E+02 at   5.2300E+02  6.9000E+01    103     36
+
+
+WARNING from PE    58: btstep: eta has dropped below bathyT:  -5.9217498556904854E+02 vs.  -5.7483804469461973E+02 at   5.3100E+02  5.9000E+01    107     31
+
+
+WARNING from PE    58: btstep: eta has dropped below bathyT:  -6.4951334787771850E+02 vs.  -5.7342694636886779E+02 at   5.2900E+02  5.9000E+01    106     31
+
+
+WARNING from PE    83: btstep: eta has dropped below bathyT:  -1.7584831211621633E+02 vs.  -1.2771068965111812E+02 at   5.4100E+02  7.3000E+01    112     38
+
+
+WARNING from PE    83: btstep: eta has dropped below bathyT:  -4.2337763293851742E+02 vs.  -1.2771068965111812E+02 at   5.4100E+02  7.3000E+01    112     38
+
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9580625227629758E+02 vs.  -1.9580625227624665E+02 at   5.0100E+02  1.3000E+01     92      8
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9563502967381254E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  1.3000E+01     93      8
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9894813926975522E+02 vs.  -1.9894813926968260E+02 at   4.8700E+02  1.3000E+01     85      8
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4505970572920688E+02 vs.  -1.4504983089868665E+02 at   5.2100E+02  6.9000E+01    102     36
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.4700012899819308E+02 vs.  -1.4689651432547817E+02 at   5.2500E+02  6.9000E+01    104     36
+
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9361868647025955E+02 vs.  -2.9361274240179921E+02 at   4.9900E+02  6.5000E+01     91     34
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991319317E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9563502967382129E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  6.7000E+01     93     35
+
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9831938420385907E+02 vs.  -1.9831938420378191E+02 at   4.8900E+02  1.3000E+01     86      8
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9554583450306751E+02 vs.  -1.9554583450305955E+02 at   5.0500E+02  6.7000E+01     94     35
+
+
+
+WARNING from PE    58: btstep: eta has dropped below bathyT:  -7.2354169234707911E+02 vs.  -5.7483804469461973E+02 at   5.3100E+02  5.9000E+01    107     31
+
+
+
+WARNING from PE    83: btstep: eta has dropped below bathyT:  -3.5161078216011452E+02 vs.  -2.1342998023499769E+02 at   5.4100E+02  6.7000E+01    112     35
+
+WARNING from PE    58: btstep: eta has dropped below bathyT:  -4.1235147919740039E+03 vs.  -5.7483804469461973E+02 at   5.3100E+02  5.9000E+01    107     31
+
+
+
+WARNING from PE    59: btstep: eta has dropped below bathyT:  -1.0978927711471224E+03 vs.  -5.8428812809545673E+02 at   5.4100E+02  5.9000E+01    112     31
+
+WARNING from PE    83: btstep: eta has dropped below bathyT:  -6.5655224498410450E+02 vs.  -4.3344688390583781E+02 at   5.4100E+02  6.3000E+01    112     33
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9563502967381251E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  1.3000E+01     93      8
+
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9554583450306296E+02 vs.  -1.9554583450305955E+02 at   5.0500E+02  1.3000E+01     94      8
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9894813926977471E+02 vs.  -1.9894813926968260E+02 at   4.8700E+02  1.3000E+01     85      8
+
+
+
+WARNING from PE    58: btstep: eta has dropped below bathyT:  -7.4261635913142163E+02 vs.  -6.1201653125183032E+02 at   5.3100E+02  5.1000E+01    107     27
+
+
+WARNING from PE    58: btstep: eta has dropped below bathyT:  -2.1485876397699608E+03 vs.  -6.0932096313276941E+02 at   5.2900E+02  5.3000E+01    106     28
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9831938420388153E+02 vs.  -1.9831938420378191E+02 at   4.8900E+02  1.3000E+01     86      8
+
+WARNING from PE    59: btstep: eta has dropped below bathyT:  -8.1137204688461634E+02 vs.  -5.8428812809545673E+02 at   5.4100E+02  5.9000E+01    112     31
+
+
+WARNING from PE    59: btstep: eta has dropped below bathyT:  -6.3126749839979436E+02 vs.  -6.0756110233527670E+02 at   5.4100E+02  5.7000E+01    112     30
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.5915767008898726E+08 vs.  -5.2014327462166921E+02 at   5.2900E+02  6.1000E+01    106     32
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -3.2563004097646971E+09 vs.  -5.2155437294742114E+02 at   5.3100E+02  6.1000E+01    107     32
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991320405E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -1.9605516991320405E+02 vs.  -1.9605516991314158E+02 at   4.9900E+02  6.7000E+01     91     35
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -2.9341540770003269E+02 vs.  -2.9336382476490428E+02 at   5.0100E+02  6.5000E+01     92     34
+
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9563502967382126E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  6.7000E+01     93     35
+
+
+WARNING from PE    83: btstep: eta has dropped below bathyT:  -1.2167630705341303E+03 vs.  -5.3100445634825815E+02 at   5.4100E+02  6.1000E+01    112     32
+
+
+
+
+WARNING from PE    57: btstep: eta has dropped below bathyT:  -2.0326159474713990E+05 vs.  -5.6845831526006566E+02 at   5.1900E+02  5.9000E+01    101     31
+
+
+WARNING from PE    57: btstep: eta has dropped below bathyT:  -8.7484771431211922E+06 vs.  -5.6845831526006566E+02 at   5.1900E+02  5.9000E+01    101     31
+
+WARNING from PE    83: btstep: eta has dropped below bathyT:  -5.0552739687373623E+03 vs.  -4.3344688390583781E+02 at   5.4100E+02  6.3000E+01    112     33
+
+
+WARNING from PE    34: btstep: eta has dropped below bathyT:  -1.5330765478656726E+03 vs.  -6.1276020662006169E+02 at   5.3100E+02  3.9000E+01    107     21
+
+
+WARNING from PE    34: btstep: eta has dropped below bathyT:  -6.5162431038331385E+02 vs.  -6.1275268161103349E+02 at   5.3100E+02  3.7000E+01    107     20
+
+WARNING from PE    84: btstep: eta has dropped below bathyT:  -4.8919691950582444E+02 vs.  -4.6676509160402577E+02 at   5.6100E+02  6.3000E+01    122     33
+
+
+
+WARNING from PE    84: btstep: eta has dropped below bathyT:  -5.6875899252918998E+02 vs.  -3.4430576042184327E+02 at   5.6100E+02  6.5000E+01    122     34
+
+
+WARNING from PE    32: btstep: eta has dropped below bathyT:  -7.2025339099699681E+02 vs.  -5.6762732770208140E+02 at   4.9500E+02  2.1000E+01     89     12
+
+
+WARNING from PE    32: btstep: eta has dropped below bathyT:  -6.3885117836426184E+02 vs.  -5.6808417194555011E+02 at   4.9300E+02  2.1000E+01     88     12
+
+
+
+WARNING from PE    35: btstep: eta has dropped below bathyT:  -2.1552448160311933E+03 vs.  -6.2221029002089870E+02 at   5.4100E+02  3.9000E+01    112     21
+
+
+WARNING from PE    35: btstep: eta has dropped below bathyT:  -2.0431664707905529E+03 vs.  -6.2220276501187050E+02 at   5.4100E+02  3.7000E+01    112     20
+
+WARNING from PE    60: btstep: eta has dropped below bathyT:  -1.8699895792410330E+03 vs.  -6.1760633579364469E+02 at   5.6100E+02  5.9000E+01    122     31
+
+
+WARNING from PE    60: btstep: eta has dropped below bathyT:  -2.4001765475037851E+03 vs.  -6.4087931003346466E+02 at   5.6100E+02  5.7000E+01    122     30
+
+
+WARNING from PE    33: btstep: eta has dropped below bathyT:  -1.0719581554577389E+03 vs.  -5.6666440013670569E+02 at   5.0100E+02  2.1000E+01     92     12
+
+
+WARNING from PE    33: btstep: eta has dropped below bathyT:  -9.8631070096807925E+03 vs.  -5.6666440013670569E+02 at   5.0100E+02  2.1000E+01     92     12
+
+
+WARNING from PE    10: btstep: eta has dropped below bathyT:  -8.0148028983928361E+02 vs.  -5.2311742612586818E+02 at   5.3300E+02  1.9000E+01    108     11
+
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9894813926977469E+02 vs.  -1.9894813926968260E+02 at   4.8700E+02  1.3000E+01     85      8
+
+
+WARNING from PE     8: btstep: eta has dropped below bathyT:  -1.9831938420388150E+02 vs.  -1.9831938420378191E+02 at   4.8900E+02  1.3000E+01     86      8
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9563502967381251E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  1.3000E+01     93      8
+
+
+
+WARNING from PE    57: btstep: eta has dropped below bathyT:  -1.4097540112312985E+04 vs.  -5.9173128949988563E+02 at   5.1900E+02  5.7000E+01    101     30
+
+
+WARNING from PE    57: btstep: eta has dropped below bathyT:  -2.7615879231285618E+05 vs.  -5.9173128949988563E+02 at   5.1900E+02  5.7000E+01    101     30
+
+WARNING from PE     9: btstep: eta has dropped below bathyT:  -1.9554583450306293E+02 vs.  -1.9554583450305955E+02 at   5.0500E+02  1.3000E+01     94      8
+
+
+WARNING from PE    58: btstep: eta has dropped below bathyT:  -6.2529815483580978E+02 vs.  -6.1201653125183032E+02 at   5.3100E+02  5.1000E+01    107     27
+
+
+WARNING from PE    58: btstep: eta has dropped below bathyT:  -2.0539911503806097E+03 vs.  -6.0932096313276941E+02 at   5.2900E+02  5.3000E+01    106     28
+
+
+WARNING from PE    59: btstep: eta has dropped below bathyT:  -1.0418346840581121E+03 vs.  -6.0997124106863112E+02 at   5.4300E+02  5.7000E+01    113     30
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -1.2682647709594881E+07 vs.  -5.1775466232863278E+02 at   5.2500E+02  6.1000E+01    104     32
+
+
+WARNING from PE    82: btstep: eta has dropped below bathyT:  -2.2829244938631672E+06 vs.  -5.1887853722084787E+02 at   5.2700E+02  6.1000E+01    105     32
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9888397651636495E+02 vs.  -2.9867537621260124E+02 at   4.8100E+02  6.5000E+01     82     34
+
+
+WARNING from PE    80: btstep: eta has dropped below bathyT:  -2.9822402608673241E+02 vs.  -2.9790856536640172E+02 at   4.8300E+02  6.5000E+01     83     34
+
+
+WARNING from PE    83: btstep: eta has dropped below bathyT:  -1.2074300266083515E+03 vs.  -5.3100445634825815E+02 at   5.4100E+02  6.1000E+01    112     32
+
+
+WARNING from PE    83: btstep: eta has dropped below bathyT:  -5.0071028327292079E+03 vs.  -4.3344688390583781E+02 at   5.4100E+02  6.3000E+01    112     33
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9563502967382126E+02 vs.  -1.9563502967377559E+02 at   5.0300E+02  6.7000E+01     93     35
+
+WARNING from PE    59: btstep: eta has dropped below bathyT:  -2.5085884300957182E+03 vs.  -6.4314901716532768E+02 at   5.5500E+02  4.7000E+01    119     25
+
+
+
+
+
+WARNING from PE    60: btstep: eta has dropped below bathyT:  -1.6906647157239631E+03 vs.  -6.5543361977564064E+02 at   5.6100E+02  4.7000E+01    122     25
+
+
+WARNING from PE    84: btstep: eta has dropped below bathyT:  -2.2424652578405681E+02 vs.  -1.6102889734930608E+02 at   5.6100E+02  7.3000E+01    122     38
+
+
+WARNING from PE    84: btstep: eta has dropped below bathyT:  -2.2369809074290319E+02 vs.  -1.6561011187874459E+02 at   5.6300E+02  7.3000E+01    123     38
+
+WARNING from PE    81: btstep: eta has dropped below bathyT:  -1.9554583450306751E+02 vs.  -1.9554583450305955E+02 at   5.0500E+02  6.7000E+01     94     35
+
+WARNING from PE    60: btstep: eta has dropped below bathyT:  -2.0393848180411228E+03 vs.  -6.5549775074675983E+02 at   5.6100E+02  4.5000E+01    122     24
+
+
+
+WARNING from PE    33: btstep: eta has dropped below bathyT:  -1.5343659960231909E+04 vs.  -5.6666440013670569E+02 at   5.0100E+02  2.1000E+01     92     12
+
+
+WARNING from PE    32: btstep: eta has dropped below bathyT:  -2.0092087573169923E+04 vs.  -5.6691331777360062E+02 at   4.9900E+02  2.1000E+01     91     12
+
+
+
+WARNING from PE    34: btstep: eta has dropped below bathyT:  -2.2366928823144440E+03 vs.  -6.1134910829430976E+02 at   5.2900E+02  3.9000E+01    106     21
+
+
+WARNING from PE    35: btstep: eta has dropped below bathyT:  -1.7360854352070694E+03 vs.  -6.2458968178192629E+02 at   5.4300E+02  3.5000E+01    113     19
+
+
+WARNING from PE    35: btstep: eta has dropped below bathyT:  -7.0795325464528332E+02 vs.  -6.4324389510877370E+02 at   5.5500E+02  3.9000E+01    119     21
+
+
+WARNING from PE    34: btstep: eta has dropped below bathyT:  -1.0137789175128951E+03 vs.  -6.1007684588446023E+02 at   5.2700E+02  3.7000E+01    105     20
+
+WARNING from PE    32: btstep: eta has dropped below bathyT:  -1.1488666317396031E+04 vs.  -5.6723568203556340E+02 at   4.9700E+02  2.1000E+01     90     12
+
+
+WARNING from PE    33: btstep: eta has dropped below bathyT:  -1.4166592324412849E+06 vs.  -5.6666440013670569E+02 at   5.0100E+02  2.1000E+01     92     12
+
+
+WARNING from PE    36: btstep: eta has dropped below bathyT:  -8.4688422591579501E+02 vs.  -6.5552849771908666E+02 at   5.6100E+02  3.9000E+01    122     21
+
+
+WARNING from PE    36: btstep: eta has dropped below bathyT:  -1.1302057867811483E+04 vs.  -6.5552849771908666E+02 at   5.6100E+02  3.9000E+01    122     21
+
+
+WARNING from PE    10: btstep: eta has dropped below bathyT:  -1.0100796782684861E+03 vs.  -2.9589107527723843E+02 at   5.2100E+02  1.5000E+01    102      9
+
+
+WARNING from PE    10: btstep: eta has dropped below bathyT:  -5.2860848320838386E+02 vs.  -4.1835040645942092E+02 at   5.2100E+02  1.7000E+01    102     10
+
+
+
+WARNING from PE     7: btstep: eta has dropped below bathyT:  -4.6318208089956142E+03 vs.  -4.2194037783894726E+02 at   4.7900E+02  1.7000E+01     81     10
+
+
+WARNING from PE     7: btstep: eta has dropped below bathyT:  -9.7890245388632093E+02 vs.  -5.1949795028136759E+02 at   4.7900E+02  1.9000E+01     81     11
+
+
+WARNING from PE    31: btstep: eta has dropped below bathyT:  -2.6262541803052727E+03 vs.  -5.7278162202856618E+02 at   4.7900E+02  2.1000E+01     81     12
+
+
+WARNING from PE    31: btstep: eta has dropped below bathyT:  -1.0422688338917328E+03 vs.  -5.7362270011630869E+02 at   4.7700E+02  2.1000E+01     80     12
+
+WARNING from PE    79: btstep: eta has dropped below bathyT:  -3.0209707213594106E+02 vs.  -3.0209707213594004E+02 at   4.7300E+02  6.5000E+01     78     34
+
+
+
+WARNING from PE    79: btstep: eta has dropped below bathyT:  -3.0209707213594498E+02 vs.  -3.0209707213594004E+02 at   4.7300E+02  6.5000E+01     78     34
+
+WARNING from PE    56: btstep: eta has dropped below bathyT:  -7.3299268623312969E+02 vs.  -6.0483547969904259E+02 at   4.9900E+02  4.1000E+01     91     22
+
+
+
+WARNING from PE    61: btstep: eta has dropped below bathyT:  -8.4851740673336360E+02 vs.  -7.1369713805582262E+02 at   5.8100E+02  4.5000E+01    132     24
+
+
+WARNING from PE    61: btstep: eta has dropped below bathyT:  -2.6878191366019387E+03 vs.  -7.1363300708470342E+02 at   5.8100E+02  4.7000E+01    132     25
+
+
+WARNING from PE    85: btstep: eta has dropped below bathyT:  -2.5815831662433686E+02 vs.  -2.1922828465836886E+02 at   5.8100E+02  7.3000E+01    132     38
+
+WARNING from PE    56: btstep: eta has dropped below bathyT:  -1.3761824196223063E+03 vs.  -6.0515784396100537E+02 at   4.9700E+02  4.1000E+01     90     22
+
+
+WARNING from PE    11: btstep: eta has dropped below bathyT:  -2.2811189593682579E+03 vs.  -5.3341459508161256E+02 at   5.4300E+02  1.9000E+01    113     11
+
+
+WARNING from PE    11: btstep: eta has dropped below bathyT:  -5.7219722613204806E+02 vs.  -5.3601230563468334E+02 at   5.4500E+02  1.9000E+01    114     11
+
+
+WARNING from PE    37: btstep: eta has dropped below bathyT:  -3.1374142557745349E+03 vs.  -7.1372788502814944E+02 at   5.8100E+02  3.9000E+01    132     21
+
+
+
+WARNING from PE    37: btstep: eta has dropped below bathyT:  -3.5353837011000310E+03 vs.  -7.1372036001912124E+02 at   5.8100E+02  3.7000E+01    132     20
+
+WARNING from PE    85: btstep: eta has dropped below bathyT:  -1.2568287142974827E+03 vs.  -2.1922828465836886E+02 at   5.8100E+02  7.3000E+01    132     38
+
+
+WARNING from PE    12: btstep: eta has dropped below bathyT:  -1.0960818331197684E+03 vs.  -5.6432266404644611E+02 at   5.6100E+02  1.9000E+01    122     11
+
+
+WARNING from PE    12: btstep: eta has dropped below bathyT:  -1.6925122824676011E+04 vs.  -5.6432266404644611E+02 at   5.6100E+02  1.9000E+01    122     11
+
+ h<0 at k=           1 h_old=  8.340796114904289E-014 wup=
+ h<0 at k=           1 h_old=  8.032143611132493E-014 wup=
+  0.000000000000000E+000 wdn=  1.421085471520200E-013 dw_dz=
+ -1.421085471520200E-013 h_new= -6.178711104069510E-014 h_err=
+  3.155443620884047E-029
+
+FATAL from PE     8: MOM_regridding: adjust_interface_motion() - implied h<0 is larger than roundoff!
+
+  0.000000000000000E+000 wdn=  1.136868377216160E-013 dw_dz=
+ -1.136868377216160E-013 h_new= -3.027887657257314E-014 h_err=
+  2.524354896707238E-029
+
+FATAL from PE     9: MOM_regridding: adjust_interface_motion() - implied h<0 is larger than roundoff!
+
+ h<0 at k=           1 h_old=  2.278558459009950E-014 wup=
+  0.000000000000000E+000 wdn=  5.684341886080801E-014 dw_dz=
+ -5.684341886080801E-014 h_new= -3.405783427070852E-014 h_err=
+  1.262177448353619E-029
+
+FATAL from PE    81: MOM_regridding: adjust_interface_motion() - implied h<0 is larger than roundoff!
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 9 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000149D4A45BCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000149D2C7D2119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000149D459B5737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000149D4ABAC2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000149D4AC11220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000149D4AF5E5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000149D4A0BDD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014B2C1CD0CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014B2A40369C8  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014B2BD22A737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014B2C24212DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014B2C2486220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014B2C27D35EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014B2C1932D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000145E26309CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000145E086A1119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000145E21863737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000145E26A5A2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000145E26ABF220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000145E26E0C5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000145E25F6BD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000150D452C5CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000150D2765E119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000150D4081F737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000150D45A162DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000150D45A7B220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000150D45DC85EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000150D44F27D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014D3660FBCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014D348494114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014D361655737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014D36684C2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014D3668B1220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014D366BFE5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014D365D5DD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001526F5120CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001526D74B9119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001526F067A737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001526F58712DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001526F58D6220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001526F5C235EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001526F4D82D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014C661F47CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014C6442BE119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014C65D4A1737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014C6626982DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014C6626FD220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014C662A4A5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014C661BA9D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000153BEF3D1CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000153BD176A114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000153BEA92B737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000153BEFB222DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000153BEFB87220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000153BEFED45EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000153BEF033D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000149214C85CF0  Unknown               Unknown  Unknown
+libucp.so.0.0.0    000014920EBA2E9A  ucp_worker_progre     Unknown  Unknown
+libopen-pal.so.40  000014920F036AE3  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  000014921545AA25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  000014921540E9E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    0000149215792B01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001492148E7D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014D49CD39CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014D47F0B1119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014D498293737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014D49D48A2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014D49D4EF220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014D49D83C5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014D49C99BD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014E58F978CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014E571D10119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014E58AED2737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014E5900C92DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014E59012E220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014E59047B5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014E58F5DAD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000149F72016CF0  Unknown               Unknown  Unknown
+libuct_ib.so.0.0.  0000149F5DE11E88  Unknown               Unknown  Unknown
+libucp.so.0.0.0    0000149F6BF33E9A  ucp_worker_progre     Unknown  Unknown
+libopen-pal.so.40  0000149F6C3C7AE3  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  0000149F727EBA25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  0000149F7279F9E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    0000149F72B23B01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000149F71C78D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001549CCA7CCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001549AEDF3114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001549C7FD6737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001549CD1CD2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001549CD232220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001549CD57F5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001549CC6DED85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014D9B3249CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014D9955E0114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014D9AE7A3737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014D9B399A2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014D9B39FF220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014D9B3D4C5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014D9B2EABD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000152ADC791CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000152ABEB2C114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000152AD7CEB737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000152ADCEE22DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000152ADCF47220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000152ADD2945EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000152ADC3F3D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001455A3449CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001455857E2114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014559E9A3737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001455A3B9A2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001455A3BFF220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001455A3F4C5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001455A30ABD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014CFC768ACF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014CFA9A23114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014CFC2BE4737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014CFC7DDB2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014CFC7E40220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014CFC818D5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014CFC72ECD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001518E8AC4CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001518CAE5B119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001518E401E737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001518E92152DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001518E927A220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001518E95C75EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001518E8726D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014608CA04CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014606ED9C119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000146087F5E737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014608D1552DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014608D1BA220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014608D5075EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014608C666D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000148638BBDCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014861AF55119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000148634117737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014863930E2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000148639373220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001486396C05EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014863881FD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000015360C494CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001535EE82D114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001536079EE737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000015360CBE52DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000015360CC4A220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000015360CF975EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000015360C0F6D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000150743D0DCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001507260A8119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000015073F267737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000015074445E2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001507444C3220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001507448105EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000015074396FD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014D5479D0CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014D529D46114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014D542F2A737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014D5481212DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014D548186220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014D5484D35EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014D547632D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001495F40E1CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001495D6479119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001495EF63B737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001495F48322DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001495F4897220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001495F4BE45EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001495F3D43D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000015501ACC7CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000154FFCED49C8  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000155016221737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000015501B4182DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000015501B47D220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000015501B7CA5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000015501A929D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001488C2852CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001488A4BEA114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001488BDDAC737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001488C2FA32DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001488C3008220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001488C33555EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001488C24B4D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014E567B60CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014E549EFA114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014E5630BA737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014E5682B12DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014E568316220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014E5686635EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014E5677C2D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014AE95167CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014AE774DE114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014AE906C1737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014AE958B82DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014AE9591D220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014AE95C6A5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014AE94DC9D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000148B193C3CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000148AFB75C114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000148B1491D737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000148B19B142DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000148B19B79220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000148B19EC65EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000148B19025D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001486A7CB2CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014868A04B114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001486A320C737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001486A84032DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001486A8468220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001486A87B55EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001486A7914D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014999EFCACF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000149981365114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014999A524737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014999F71B2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014999F780220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014999FACD5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014999EC2CD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014D4AC5E3CF0  Unknown               Unknown  Unknown
+libucp.so.0.0.0    000014D4A6500E40  ucp_worker_progre     Unknown  Unknown
+libopen-pal.so.40  000014D4A6994AE3  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  000014D4ACDB8A25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  000014D4ACD6C9E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    000014D4AD0F0B01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014D4AC245D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014659F740CF0  Unknown               Unknown  Unknown
+libucp.so.0.0.0    000014659965DE5B  ucp_worker_progre     Unknown  Unknown
+libopen-pal.so.40  0000146599AF1AE3  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  000014659FF15A25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  000014659FEC99E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    00001465A024DB01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014659F3A2D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001474D320ACF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001474B5583114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001474CE764737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001474D395B2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001474D39C0220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001474D3D0D5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001474D2E6CD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014BBE07A7CF0  Unknown               Unknown  Unknown
+libuct.so.0.0.0    000014BBDA45B3AB  Unknown               Unknown  Unknown
+libucp.so.0.0.0    000014BBDA6C4E9A  ucp_worker_progre     Unknown  Unknown
+libopen-pal.so.40  000014BBDAB58AE3  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  000014BBE0F7CA25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  000014BBE0F309E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    000014BBE12B4B01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014BBE0409D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014C1EA591CF0  Unknown               Unknown  Unknown
+libuct.so.0.0.0    000014C1E42453A2  Unknown               Unknown  Unknown
+libucp.so.0.0.0    000014C1E44AEE9A  ucp_worker_progre     Unknown  Unknown
+libopen-pal.so.40  000014C1E4942AE3  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  000014C1EAD66A25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  000014C1EAD1A9E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    000014C1EB09EB01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014C1EA1F3D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014D33603ACF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014D3183D5114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014D331594737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014D33678B2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014D3367F0220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014D336B3D5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014D335C9CD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014638A5A6CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014636C91E114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000146385B00737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014638ACF72DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014638AD5C220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014638B0A95EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014638A208D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001455833C9CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000145565741114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014557E923737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000145583B1A2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000145583B7F220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000145583ECC5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014558302BD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000153D2F9A8CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000153D11D20114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000153D2AF02737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000153D300F92DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000153D3015E220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000153D304AB5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000153D2F60AD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001516A0612CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000015168298B119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000015169BB6C737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001516A0D632DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001516A0DC8220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001516A11155EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001516A0274D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014DB3E3A8CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014DB20720119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014DB39902737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014DB3EAF92DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014DB3EB5E220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014DB3EEAB5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014DB3E00AD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014F083B23CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014F065E9A114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014F07F07D737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014F0842742DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014F0842D9220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014F0846265EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014F083785D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014EE07DB2CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014EDEA12B119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014EE0330C737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014EE085032DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014EE08568220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014EE088B55EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014EE07A14D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000146C96BFFCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000146C78EE7114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000146C92159737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000146C973502DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000146C973B5220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000146C977025EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000146C96861D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014CA704ECCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014CA52865114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014CA6BA46737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014CA70C3D2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014CA70CA2220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014CA70FEF5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014CA7014ED85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+
+
+FATAL from PE    59: Overflow in reproducing_EFP_sum(_2d) conversion of  -2.03739E+51
+
+FATAL from PE    83: Overflow in reproducing_EFP_sum(_2d) conversion of   1.06743E+48
+
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001463CC9EECF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001463AED739C8  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001463C7F48737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001463CD13F2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001463CD1A4220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001463CD4F15EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001463CC650D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001552467DFCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000155228B78119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000155241D39737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000155246F302DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000155246F95220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001552472E25EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000155246441D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000151E6F0CCCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000151E51463114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000151E6A626737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000151E6F81D2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000151E6F882220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000151E6FBCF5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000151E6ED2ED85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001532926E2CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000153274A57114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000015328DC3C737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000153292E332DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000153292E98220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001532931E55EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000153292344D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014797C0CACF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014795E463119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000147977624737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014797C81B2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014797C880220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014797CBCD5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014797BD2CD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014AD16404CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014ACF879B119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014AD1195E737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014AD16B552DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014AD16BBA220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014AD16F075EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014AD16066D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000153E8D999CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000153E6FD34114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000153E88EF3737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000153E8E0EA2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000153E8E14F220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000153E8E49C5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000153E8D5FBD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014A6E495DCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014A6C6CD6114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014A6DFEB7737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014A6E50AE2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014A6E5113220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014A6E54605EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014A6E45BFD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014ACD6BDACF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014ACB8EE7114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014ACD2134737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014ACD732B2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014ACD7390220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014ACD76DD5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014ACD683CD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014FA9C37FCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014FA7E6F8114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014FA978D9737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014FA9CAD02DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014FA9CB35220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014FA9CE825EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014FA9BFE1D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014C29EAE5CF0  Unknown               Unknown  Unknown
+libuct_ib.so.0.0.  000014C28A96AB88  Unknown               Unknown  Unknown
+libucp.so.0.0.0    000014C298A02E9A  ucp_worker_progre     Unknown  Unknown
+libopen-pal.so.40  000014C298E96AE3  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  000014C29F2BAA25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  000014C29F26E9E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    000014C29F5F2B01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014C29E747D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000151E207C0CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000151E02B36119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000151E1BD1A737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000151E20F112DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000151E20F76220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000151E212C35EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000151E20422D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001461384E6CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014611A85F114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000146133A40737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000146138C372DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000146138C9C220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000146138FE95EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000146138148D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000148534120CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001485164B9114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014852F67A737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001485348712DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001485348D6220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000148534C235EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000148533D82D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014913E66DCF0  Unknown               Unknown  Unknown
+libuct.so.0.0.0    00001491383213AB  Unknown               Unknown  Unknown
+libucp.so.0.0.0    000014913858AE9A  ucp_worker_progre     Unknown  Unknown
+libopen-pal.so.40  0000149138A1EAE3  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  000014913EE42A25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  000014913EDF69E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    000014913F17AB01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014913E2CFD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000015535014BCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001553324E2119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000015534B6A5737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000015535089C2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000155350901220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000155350C4E5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000015534FDADD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014B9E0C48CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014B9C2FE0114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014B9DC1A2737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014B9E13992DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014B9E13FE220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014B9E174B5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014B9E08AAD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000146FBA065CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000146F9C3FD119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000146FB55BF737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000146FBA7B62DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000146FBA81B220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000146FBAB685EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000146FB9CC7D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000149D4A2A4CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000149D2C63E119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000149D457FE737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000149D4A9F52DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000149D4AA5A220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000149D4ADA75EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000149D49F06D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000015383AB4ECF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000015381CEE7114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001538360A8737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000015383B29F2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000015383B304220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000015383B6515EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000015383A7B0D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000015142871CCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000015140AAB7119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000151423C76737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000151428E6D2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000151428ED2220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000015142921F5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000015142837ED85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001500A0F6DCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000150083304114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000015009C4C7737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001500A16BE2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001500A1723220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001500A1A705EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001500A0BCFD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014D0F445BCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014D0D67F5119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014D0EF9B5737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014D0F4BAC2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014D0F4C11220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014D0F4F5E5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014D0F40BDD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000015546EBE5CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000155450EE7114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000015546A13F737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000015546F3362DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000015546F39B220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000015546F6E85EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000015546E847D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001503AB543CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000015038D8DE119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001503A6A9D737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001503ABC942DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001503ABCF9220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001503AC0465EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001503AB1A5D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014F659409CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014F63B78E9C8  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014F654963737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014F659B5A2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014F659BBF220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014F659F0C5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014F65906BD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014B64FB0FCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014B631E86114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014B64B069737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014B6502602DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014B6502C5220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014B6506125EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014B64F771D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014F9595DBCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014F93B973119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014F954B35737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014F959D2C2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014F959D91220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014F95A0DE5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014F95923DD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000147DFB2B3CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  0000147DDD64C119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  0000147DF680D737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  0000147DFBA042DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  0000147DFBA69220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    0000147DFBDB65EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       0000147DFAF15D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001474D401BCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001474B63B6119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001474CF575737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001474D476C2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001474D47D1220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001474D4B1E5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001474D3C7DD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014EEDA4DBCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014EEBC875114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014EED5A35737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014EEDAC2C2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014EEDAC91220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014EEDAFDE5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014EEDA13DD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014BCBED7CCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014BCA10EC119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014BCBA2D6737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014BCBF4CD2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014BCBF532220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014BCBF87F5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014BCBE9DED85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014F12C9ECCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014F10ED83119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014F127F46737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014F12D13D2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014F12D1A2220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014F12D4EF5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014F12C64ED85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001455E6A28CF0  Unknown               Unknown  Unknown
+libopen-pal.so.40  00001455E0DD9B01  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  00001455E71FDA25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  00001455E71B19E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    00001455E7535B01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001455E668AD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001474AA195CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014748C50E114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001474A56EF737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001474AA8E62DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001474AA94B220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001474AAC985EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001474A9DF7D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014C33303ECF0  Unknown               Unknown  Unknown
+libopen-pal.so.40  000014C32D3EFA2F  Unknown               Unknown  Unknown
+libopen-pal.so.40  000014C32D3EFB33  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  000014C333813A25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  000014C3337C79E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    000014C333B4BB01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014C332CA0D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001526E2E56CF0  Unknown               Unknown  Unknown
+libuct.so.0.0.0    00001526DCB0A242  Unknown               Unknown  Unknown
+libucp.so.0.0.0    00001526DCD73E9A  ucp_worker_progre     Unknown  Unknown
+libopen-pal.so.40  00001526DD207AE3  opal_progress         Unknown  Unknown
+libmpi.so.40.30.2  00001526E362BA25  ompi_request_defa     Unknown  Unknown
+libmpi.so.40.30.2  00001526E35DF9E2  MPI_Wait              Unknown  Unknown
+libmpi_mpifh.so    00001526E3963B01  Unknown               Unknown  Unknown
+MOM6               0000000001196796  Unknown               Unknown  Unknown
+MOM6               0000000001322448  Unknown               Unknown  Unknown
+MOM6               0000000000F88217  Unknown               Unknown  Unknown
+MOM6               00000000004AA914  Unknown               Unknown  Unknown
+MOM6               000000000049E10B  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001526E2AB8D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  0000153939C74CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000015391C00D119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001539351CE737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000015393A3C52DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000015393A42A220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000015393A7775EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001539398D6D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014E2CB43ACF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014E2AD7D3119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014E2C6994737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014E2CBB8B2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014E2CBBF0220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014E2CBF3D5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014E2CB09CD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014B2C658BCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014B2A8903114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014B2C1AE5737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014B2C6CDC2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014B2C6D41220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014B2C708E5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014B2C61EDD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014AE69EFBCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014AE4C273119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014AE65455737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014AE6A64C2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014AE6A6B1220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014AE6A9FE5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014AE69B5DD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  00001534C95AFCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  00001534AB926114  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  00001534C4B09737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  00001534C9D002DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  00001534C9D65220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    00001534CA0B25EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       00001534C9211D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014DF69E17CF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014DF4C190119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014DF65371737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014DF6A5682DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014DF6A5CD220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014DF6A91A5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014DF69A79D85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014AA7790ACF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014AA59C81119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014AA72E64737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014AA7805B2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014AA780C0220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014AA7840D5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014AA7756CD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+MOM6               00000000014D2CFB  for__signal_handl     Unknown  Unknown
+libpthread-2.28.s  000014EFE634BCF0  Unknown               Unknown  Unknown
+hmca_bcol_basesmu  000014EFC86BC119  hmca_bcol_basesmu     Unknown  Unknown
+libhcoll.so.1.0.1  000014EFE18A5737  Unknown               Unknown  Unknown
+libmpi.so.40.30.2  000014EFE6A9C2DB  mca_coll_hcoll_al     Unknown  Unknown
+libmpi.so.40.30.2  000014EFE6B01220  PMPI_Allreduce        Unknown  Unknown
+libmpi_mpifh.so    000014EFE6E4E5EB  Unknown               Unknown  Unknown
+MOM6               0000000001165A73  Unknown               Unknown  Unknown
+MOM6               0000000000F8153E  Unknown               Unknown  Unknown
+MOM6               0000000000825EE1  Unknown               Unknown  Unknown
+MOM6               0000000000823FBB  Unknown               Unknown  Unknown
+MOM6               00000000007B6A4E  Unknown               Unknown  Unknown
+MOM6               00000000007A08B8  Unknown               Unknown  Unknown
+MOM6               000000000049C0F8  Unknown               Unknown  Unknown
+MOM6               0000000000F617CE  Unknown               Unknown  Unknown
+MOM6               000000000040FDE2  Unknown               Unknown  Unknown
+libc-2.28.so       000014EFE5FADD85  __libc_start_main     Unknown  Unknown
+MOM6               000000000040FCEE  Unknown               Unknown  Unknown
+[gadi-cpu-clx-2444.gadi.nci.org.au:2932213] 4 more processes have sent help message help-mpi-api.txt / mpi-abort
+[gadi-cpu-clx-2444.gadi.nci.org.au:2932213] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
