@@ -67,3 +67,5 @@
                                 !     USER - call a user modified routine.
 
 #override ISOMIP_TNUDG = 1.0 ! Nudging timescale 1 day
+#override ISOMIP_S_SUR_SPONGE = 33.8
+#override ISOMIP_S_BOT_SPONGE = 34.55
