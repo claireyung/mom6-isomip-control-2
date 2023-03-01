@@ -31,6 +31,11 @@ work/INPUT/Ocean1_3D.nc:
   hashes:
     binhash: 424e447b4410159480867059e4d7dcd5
     md5: 41ff7c7ad45502f2266cc1b21c0fde8c
+work/INPUT/Ocean1_3D_halved.nc:
+  fullpath: /home/156/cy8964/ISOMIP/Ocean1_3D_halved.nc
+  hashes:
+    binhash: ad570ab9367493f2c023ca5de89d7c24
+    md5: 6d526b7d4f27a1cdd8805e0663b94c81
 work/INPUT/Topog_invshelf_IC_200700Grosveld.nc:
   fullpath: /home/156/cy8964/ISOMIP/Topog_invshelf_IC_200700Grosveld.nc
   hashes:
