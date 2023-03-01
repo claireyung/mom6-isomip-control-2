@@ -1,0 +1,57 @@
+! Blank file in which we can put "overrides" for parameters
+#override ICE_THICKNESS_FILE = "Ocean1_3D.nc"
+#override SURFACE_PRESSURE_FILE = "Ocean1_3D.nc"
+
+! Change regridding coordinate
+#override COORD_CONFIG = "linear"         ! default = "none"
+#override ALE_COORDINATE_CONFIG = "UNIFORM"
+#override REGRIDDING_COORDINATE_MODE = "SIGMA_SHELF_ZSTAR" ! default = "LAYER"
+
+! Make higher res
+#override NK = 50
+
+! Change temperature 
+#override ISOMIP_T_SUR = -1.4             !   [degC] default = -1.9
+                                ! Temperature at the surface (interface)
+#override ISOMIP_T_BOT = -1.4             !   [degC] default = -1.9
+
+
+!Add module for diags
+
+! === module MOM_diag_mediator ===
+#override NUM_DIAG_COORDS = 2             ! default = 1
+                                ! The number of diagnostic vertical coordinates to use. For each coordinate, an
+                                ! entry in DIAG_COORDS must be provided.
+#override DIAG_COORDS = "z Z ZSTAR", "rho2 RHO2 RHO" !
+                                ! A list of string tuples associating diag_table modules to a coordinate
+                                ! definition used for diagnostics. Each string is of the form
+                                ! "MODULE_SUFFIX,PARAMETER_SUFFIX,COORDINATE_NAME".
+#override DIAG_COORD_DEF_Z = "FILE:vert_isomip.nc,interfaces=st_edges_ocean" ! default = "UNIFORM"
+                                ! Determines how to specify the coordinate resolution. Valid options are:
+                                !  PARAM       - use the vector-parameter DIAG_COORD_RES_Z
+                                !  UNIFORM[:N] - uniformly distributed
+                                !  FILE:string - read from a file. The string specifies
+                                !                the filename and variable name, separated
+                                !                by a comma or space, e.g. FILE:lev.nc,dz
+                                !                or FILE:lev.nc,interfaces=zw
+                                !  WOA09[:N]   - the WOA09 vertical grid (approximately)
+                                !  FNC1:string - FNC1:dz_min,H_total,power,precision
+                                !  HYBRID:string - read from a file. The string specifies
+                                !                the filename and two variable names, separated
+                                !                by a comma or space, for sigma-2 and dz. e.g.
+                                !                HYBRID:vgrid.nc,sigma2,dz
+#override DIAG_COORD_DEF_RHO2 = "FILE:diag_rho2.nc,interfaces=rho2" ! default = "UNIFORM"
+                                ! Determines how to specify the coordinate resolution. Valid options are:
+                                !  PARAM       - use the vector-parameter DIAG_COORD_RES_RHO2
+                                !  UNIFORM[:N] - uniformly distributed
+                                !  FILE:string - read from a file. The string specifies
+                                !                the filename and variable name, separated
+                                !                by a comma or space, e.g. FILE:lev.nc,dz
+                                !                or FILE:lev.nc,interfaces=zw
+                                !  WOA09[:N]   - the WOA09 vertical grid (approximately)
+                                !  FNC1:string - FNC1:dz_min,H_total,power,precision
+                                !  HYBRID:string - read from a file. The string specifies
+                                !                the filename and two variable names, separated
+                                !                by a comma or space, for sigma-2 and dz. e.g.
+                                !                HYBRID:vgrid.nc,sigma2,dz
+
