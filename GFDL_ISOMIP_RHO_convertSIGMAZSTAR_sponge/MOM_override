@@ -66,3 +66,4 @@
                                 !       for buoyancy-forced basin case.
                                 !     USER - call a user modified routine.
 
+#override ISOMIP_TNUDG = 1.0 ! Nudging timescale 1 day
