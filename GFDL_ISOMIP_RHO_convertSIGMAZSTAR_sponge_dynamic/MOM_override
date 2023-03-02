@@ -73,3 +73,4 @@
 
 ! Turn on dynamics
 #override DYNAMIC_SHELF_MASS = True
+#override ICE_VELOCITY_TIMESTEP = 1800 ! 5 ocean timesteps
