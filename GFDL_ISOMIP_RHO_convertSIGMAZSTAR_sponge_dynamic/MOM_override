@@ -76,3 +76,4 @@
 #override ICE_VELOCITY_TIMESTEP = 1800 ! 5 ocean timesteps
 #override BASAL_FRICTION_EXP = -0.666
 #override ICE_BASAL_FRICTION_CONFIG = CONSTANT
+#override ICE_A_GLEN_CONFIG = CONSTANT
