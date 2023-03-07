@@ -13,7 +13,7 @@
 "ocean_static",     -1, "months", 1, "days", "time" # ocean_static is a protected name. Do not change this line.
 "ocean_month_z",          1, "hours", 1, "days", "time"
 "ocean_daily_z",          1, "days", 1, "days", "time"
-"ocean_month_rho2",       1, "hours", 1, "days", "time"
+"ocean_month_rho2",       1, "months", 1, "days", "time"
 "ice_daily",              1, "days",   1, "days", "time"
 
 
@@ -316,6 +316,10 @@
 "ocean_model", "areacello_cv","areacello_cv","ocean_static", "all", "none", "none", 2
 "ocean_model", "areacello_bu","areacello_bu","ocean_static", "all", "none", "none", 2
 
+ "ocean_model_rho2", "volcello",  "volcello",         "ocean_month_rho2",    "all", "mean", "none",2 # Cell measure for 3d data
+ "ocean_model_rho2", "thkcello",  "thkcello",         "ocean_month_rho2",    "all", "mean", "none",2
+ "ocean_model_rho2","umo",       "umo",              "ocean_month_rho2",   "all", "mean", "none",2
+ "ocean_model_rho2","vmo",       "vmo",              "ocean_month_rho2",   "all", "mean", "none",2
 
 
 
