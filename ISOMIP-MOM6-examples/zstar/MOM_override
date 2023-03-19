@@ -15,6 +15,6 @@
                                 !  HYBGEN - Hybrid coordinate from the Hycom hybgen code
                                 !  SLIGHT - stretched coordinates above continuous isopycnal
                                 !  ADAPTIVE - optimize for smooth neutral density surfaces
-! Set KVML_INV_Z2 = 0 (meant to reduce spurious velocities)
-#override KVML_INV_Z2 = 0
+! Set KV_ML_INVZ2 = 0 (meant to reduce spurious velocities)
+#override KV_ML_INVZ2 = 0
 #override FIXED_DEPTH_LOTW_ML = True
