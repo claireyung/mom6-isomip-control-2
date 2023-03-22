@@ -34,7 +34,7 @@
                                 !                the filename and two variable names, separated
                                 !                by a comma or space, for sigma-2 and dz. e.g.
                                 !                HYBRID:vgrid.nc,sigma2,dz
-!#override DIAG_COORD_DEF_RHO2 = "FILE:diag_rho2.nc,interfaces=rho2" ! default = "UNIFORM"
+#override DIAG_COORD_DEF_RHO2 = "FILE:diag_rho0.nc,interfaces=rho2" ! default = "UNIFORM"
                                 ! Determines how to specify the coordinate resolution. Valid options are:
                                 !  PARAM       - use the vector-parameter DIAG_COORD_RES_RHO2
                                 !  UNIFORM[:N] - uniformly distributed
@@ -48,7 +48,7 @@
                                 !                the filename and two variable names, separated
                                 !                by a comma or space, for sigma-2 and dz. e.g.
                                 !                HYBRID:vgrid.nc,sigma2,dz
-#override DIAG_COORD_DEF_RHO2 = "RFNC1:35,999.5,1025.5,1026,8.,1029.,0.0078125"
+!#override DIAG_COORD_DEF_RHO2 = "RFNC1:35,999.5,1025.5,1026,8.,1029.,0.0078125"
 
 ! Add sponge layer
 ! === module MOM_state_initialization ===
