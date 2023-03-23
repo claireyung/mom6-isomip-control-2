@@ -44,8 +44,8 @@ work/INPUT/Topog_invshelf_IC_200700Grosveld.nc:
 work/INPUT/diag_rho0.nc:
   fullpath: /home/156/cy8964/ISOMIP/diag_rho0.nc
   hashes:
-    binhash: fdcdd83a96f10b0bf5da1ed8bf46e441
-    md5: bfa29094579abc944d1d698b4507565a
+    binhash: 915f256b555eb8aed6336852920da6bb
+    md5: 3c1e9ddb5b4a3bedd579e746f921370d
 work/INPUT/diag_rho2.nc:
   fullpath: /home/156/cy8964/ISOMIP/diag_rho2.nc
   hashes:
