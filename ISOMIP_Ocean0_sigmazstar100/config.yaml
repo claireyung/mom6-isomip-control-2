@@ -7,7 +7,7 @@ ncpus: 48
 jobfs: 10GB
 
 # change to a project you have access to
-# shortpath: x77
+shortpath: x77
 
 model: mom6
 input:
