@@ -1,3 +1,18 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_Ocean0_sigmazstar100/restart000/MOM.res.nc
+  hashes:
+    binhash: d5150263707a8c657c471aaa0d891f9a
+    md5: 70b085aedc7291f33ca788446e20bf47
+work/INPUT/Shelf.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_Ocean0_sigmazstar100/restart000/Shelf.res.nc
+  hashes:
+    binhash: ac4ffaa7473897202ef0aa6489df1c45
+    md5: 415bf829ac86ee67b89280e3a41d10c2
+work/INPUT/ocean_solo.res:
+  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_Ocean0_sigmazstar100/restart000/ocean_solo.res
+  hashes:
+    binhash: 95defd2685a212b93d45b6e1e8260d60
+    md5: 4214ece430d7356da6c7eb88d3b73fec
