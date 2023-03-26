@@ -1,0 +1,113 @@
+format: yamanifest
+version: 1.0
+---
+work/INPUT/ISOMIP_zgrid.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ISOMIP_zgrid.nc
+  hashes:
+    binhash: 3089732ed15ad908ce51de3ee870a345
+    md5: 12cd0d23282a28bc51f14bce42f50bdb
+work/INPUT/MOM_Shelf_IC.nc:
+  fullpath: /home/156/cy8964/ISOMIP/MOM_Shelf_IC.nc
+  hashes:
+    binhash: 1a5235d49b53165c1c1c571d21b6d68a
+    md5: 869d689747644d76e09e91e4f2f853e7
+work/INPUT/MOM_Shelf_IC_200700Grosveld.nc:
+  fullpath: /home/156/cy8964/ISOMIP/MOM_Shelf_IC_200700Grosveld.nc
+  hashes:
+    binhash: dde0ccc78a69b781bd1cd65d22175428
+    md5: 5b80652e9f7664369b0835a8574a4fe4
+work/INPUT/MOM_Shelf_IC_200700Grosveld_cut74.nc:
+  fullpath: /home/156/cy8964/ISOMIP/MOM_Shelf_IC_200700Grosveld_cut74.nc
+  hashes:
+    binhash: 8b2844046beb24fb4051b538480e6cbd
+    md5: d331b58066bcc3628a2422d48c6a8727
+work/INPUT/MOM_Shelf_IC_Mathiot.nc:
+  fullpath: /home/156/cy8964/ISOMIP/MOM_Shelf_IC_Mathiot.nc
+  hashes:
+    binhash: 5073a2743a2f0c32c44237e7fccfb06b
+    md5: d42d13dfd93c4cdf3543260b8b11d82c
+work/INPUT/Ocean1_3D.nc:
+  fullpath: /home/156/cy8964/ISOMIP/Ocean1_3D.nc
+  hashes:
+    binhash: 424e447b4410159480867059e4d7dcd5
+    md5: 41ff7c7ad45502f2266cc1b21c0fde8c
+work/INPUT/Ocean1_3D_halved.nc:
+  fullpath: /home/156/cy8964/ISOMIP/Ocean1_3D_halved.nc
+  hashes:
+    binhash: ad570ab9367493f2c023ca5de89d7c24
+    md5: 6d526b7d4f27a1cdd8805e0663b94c81
+work/INPUT/Topog_invshelf_IC_200700Grosveld.nc:
+  fullpath: /home/156/cy8964/ISOMIP/Topog_invshelf_IC_200700Grosveld.nc
+  hashes:
+    binhash: 5306b4316c16c5a11ef68eebd1a952f6
+    md5: 75eed8e4e9138eb4d73cd5f941dce2d0
+work/INPUT/diag_rho0.nc:
+  fullpath: /home/156/cy8964/ISOMIP/diag_rho0.nc
+  hashes:
+    binhash: 915f256b555eb8aed6336852920da6bb
+    md5: 3c1e9ddb5b4a3bedd579e746f921370d
+work/INPUT/diag_rho2.nc:
+  fullpath: /home/156/cy8964/ISOMIP/diag_rho2.nc
+  hashes:
+    binhash: 60f8f92e955c0a176f6786c4bbd68bbd
+    md5: 2e28890e50220397a167a2b3c4a30271
+work/INPUT/hycom1_30_30m.nc:
+  fullpath: /home/156/cy8964/ISOMIP/hycom1_30_30m.nc
+  hashes:
+    binhash: d9a8c1e14e0724d517c3eba84fb73704
+    md5: 6c4928c98f330e27d1381da03cdf9067
+work/INPUT/hycom1_75_800m.nc:
+  fullpath: /home/156/cy8964/ISOMIP/hycom1_75_800m.nc
+  hashes:
+    binhash: df786bce708db439d46b8a079777ca63
+    md5: 023b23f6b55e6f3b3de6778e608d0d3d
+work/INPUT/hycom1_75_800m_shrunken.nc:
+  fullpath: /home/156/cy8964/ISOMIP/hycom1_75_800m_shrunken.nc
+  hashes:
+    binhash: a64f6f0ee9c47843894e5afd64f8574c
+    md5: c269b45bf1b95277bca22230460563c7
+work/INPUT/lin_ISOMIP_initTS_saltlin.nc:
+  fullpath: /home/156/cy8964/ISOMIP/lin_ISOMIP_initTS_saltlin.nc
+  hashes:
+    binhash: 6e0e664bb6aa0867338d66ad3a1b3543
+    md5: 4ffed6314607dd88a29b496cfd48a57a
+work/INPUT/nonlin_ISOMIP_initTS.nc:
+  fullpath: /home/156/cy8964/ISOMIP/nonlin_ISOMIP_initTS.nc
+  hashes:
+    binhash: 09e3c572db808d1ccabdac82e9c2718a
+    md5: 033c1d52796a7a5b87d2f63a8b7c9f30
+work/INPUT/nonlin_ISOMIP_initTS_salttanh.nc:
+  fullpath: /home/156/cy8964/ISOMIP/nonlin_ISOMIP_initTS_salttanh.nc
+  hashes:
+    binhash: 77c44c7c2d97010647e326f31cc90bcc
+    md5: 0a2aff17bd0c3b44ab781650a251e796
+work/INPUT/ocean_daily_z.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ocean_daily_z.nc
+  hashes:
+    binhash: dc83566e2bbc0baa2a27ddba209dd42e
+    md5: 437e4b815d3d28aab7e3e589e347e628
+work/INPUT/ocean_hgrid_isomip.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ocean_hgrid_isomip.nc
+  hashes:
+    binhash: 5d414bd17329c620ae70ac20d91e04d8
+    md5: 81647f9deaf6f17fffac7c272220bc01
+work/INPUT/vert_isomip.nc:
+  fullpath: /home/156/cy8964/ISOMIP/vert_isomip.nc
+  hashes:
+    binhash: 27948c0bb9875b2454d970dc9b7c1876
+    md5: 62121532af6d64c817cc0703293828c0
+work/INPUT/vert_isomip_30m.nc:
+  fullpath: /home/156/cy8964/ISOMIP/vert_isomip_30m.nc
+  hashes:
+    binhash: 7fc5b9e6e3166a92dfcf7303fc4582a1
+    md5: 62121532af6d64c817cc0703293828c0
+work/INPUT/vert_isomip_80m.nc:
+  fullpath: /home/156/cy8964/ISOMIP/vert_isomip_80m.nc
+  hashes:
+    binhash: 0d0063c0fed754182ff68f2ecae5a9de
+    md5: 9474cc3bb6ee6f6c3745407fb961705d
+work/INPUT/vert_isomip_orig.nc:
+  fullpath: /home/156/cy8964/ISOMIP/vert_isomip_orig.nc
+  hashes:
+    binhash: 35643efe7294dadd1e75a7fd24d2ad4f
+    md5: 7ab0f8b4d8048408716a61eda9803de4
