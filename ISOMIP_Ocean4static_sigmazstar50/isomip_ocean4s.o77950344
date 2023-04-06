@@ -1,0 +1,37 @@
+laboratory path:  /scratch/x77/cy8964/mom6
+binary path:  /scratch/x77/cy8964/mom6/bin
+input path:  /scratch/x77/cy8964/mom6/input
+work path:  /scratch/x77/cy8964/mom6/work
+archive path:  /scratch/x77/cy8964/mom6/archive
+nruns: 3 nruns_per_submit: 1 subrun: 1
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Creating restart manifest
+Updating full hashes for 3 files in manifests/restart.yaml
+77956633.gadi-pbs
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+qsub -q normal -P oz91 -l walltime=04:00:00 -l ncpus=48 -l mem=192GB -l jobfs=10GB -N isomip_ocean4s -l wd -j n -v PAYU_PATH=/g/data3/hh5/public/apps/miniconda3/envs/analysis3-22.10/bin,PAYU_CURRENT_RUN=4,PAYU_N_RUNS=2,MODULESHOME=/opt/Modules/v4.3.0,MODULES_CMD=/opt/Modules/v4.3.0/libexec/modulecmd.tcl,MODULEPATH=/g/data3/hh5/public/modules:/etc/scl/modulefiles:/apps/Modules/restricted-modulefiles/matlab_anu:/opt/Modules/modulefiles:/opt/Modules/v4.3.0/modulefiles:/apps/Modules/modulefiles -l storage=gdata/hh5+gdata/ik11+scratch/x77 -- /g/data/hh5/public/apps/miniconda3/envs/analysis3-22.10/bin/python3.9 /g/data3/hh5/public/apps/miniconda3/envs/analysis3-22.10/bin/payu-run
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+mpirun  -wdir /scratch/x77/cy8964/mom6/work/ISOMIP_Ocean4static_sigmazstar50 -np 48  /scratch/x77/cy8964/mom6/work/ISOMIP_Ocean4static_sigmazstar50/MOM6
+
+======================================================================================
+                  Resource Usage on 2023-03-27 14:24:27:
+   Job Id:             77950344.gadi-pbs
+   Project:            oz91
+   Exit Status:        0
+   Service Units:      217.17
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 104:31:19       
+   Memory Requested:   192.0GB               Memory Used: 86.86GB         
+   Walltime requested: 04:00:00            Walltime Used: 02:15:44        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================

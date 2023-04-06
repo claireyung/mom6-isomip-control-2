@@ -1,0 +1,29 @@
+archive
+bin
+work
+access-om2.err
+access-om2.out
+pbs_logs
+
+tools/PET*
+tools/*.nc
+tools/contrib/esmf
+tools/contrib/bin
+
+*.swp
+input_*.tar.gz
+input
+
+.cache
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+payu-experiments
+
+._*
+

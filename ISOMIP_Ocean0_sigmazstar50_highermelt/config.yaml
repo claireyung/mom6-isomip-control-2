@@ -1,13 +1,13 @@
 # change to your project with compute time available
-project: g40
+project: x77
 queue: normal
-walltime: 02:00:00
+walltime: 04:00:00
 jobname: isomip_ocean0
 ncpus: 48
 jobfs: 10GB
 
 # change to a project you have access to
-#shortpath: x77
+shortpath: /scratch/x77
 
 model: mom6
 input:
@@ -16,7 +16,7 @@ exe: /scratch/x77/cy8964/mom6/mom6-ninja-nci/ocean_only_symmetric/MOM6
 # /home/552/pc5520/MOM6_2/build/MOM6
 
 collate: false
-runlog: true
+runlog: false
 storage:
   gdata:
     - ik11

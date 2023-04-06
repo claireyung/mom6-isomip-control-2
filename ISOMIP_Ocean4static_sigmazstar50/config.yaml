@@ -16,7 +16,7 @@ exe: /scratch/x77/cy8964/mom6/mom6-ninja-nci/ocean_only_symmetric/MOM6
 # /home/552/pc5520/MOM6_2/build/MOM6
 
 collate: false
-runlog: true
+runlog: false
 storage:
   gdata:
     - ik11

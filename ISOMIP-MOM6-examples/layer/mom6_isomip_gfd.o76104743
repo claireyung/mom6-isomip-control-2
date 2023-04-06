@@ -1,0 +1,39 @@
+laboratory path:  /scratch/x77/cy8964/mom6
+binary path:  /scratch/x77/cy8964/mom6/bin
+input path:  /scratch/x77/cy8964/mom6/input
+work path:  /scratch/x77/cy8964/mom6/work
+archive path:  /scratch/x77/cy8964/mom6/archive
+nruns: 1 nruns_per_submit: 1 subrun: 1
+Loading input manifest: manifests/input.yaml
+Loading restart manifest: manifests/restart.yaml
+Loading exe manifest: manifests/exe.yaml
+Setting up mom6
+Checking exe and input manifests
+Updating full hashes for 1 files in manifests/exe.yaml
+Creating restart manifest
+Writing manifests/restart.yaml
+Writing manifests/exe.yaml
+payu: Found modules in /opt/Modules/v4.3.0
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer/config.yaml
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer/input.nml
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer/MOM_input
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer/diag_table
+git add /home/156/cy8964/mom6-control/isomip-control/ISOMIP-MOM6-examples/layer/MOM_override
+git add manifests/input.yaml
+git add manifests/restart.yaml
+git add manifests/exe.yaml
+git commit -am "2023-03-10 11:52:26: Run 0"
+mpirun  -wdir /scratch/x77/cy8964/mom6/work/layer -np 48  /scratch/x77/cy8964/mom6/work/layer/MOM6
+
+======================================================================================
+                  Resource Usage on 2023-03-10 11:55:30:
+   Job Id:             76104743.gadi-pbs
+   Project:            x77
+   Exit Status:        0
+   Service Units:      5.01
+   NCPUs Requested:    48                     NCPUs Used: 48              
+                                           CPU Time Used: 02:15:48        
+   Memory Requested:   192.0GB               Memory Used: 22.78GB         
+   Walltime requested: 00:15:00            Walltime Used: 00:03:08        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================

@@ -1,0 +1,9 @@
+PAYU_CONTROL_DIR: /home/156/cy8964/mom6-control/isomip-control/ISOMIP_Ocean0_sigmazstar50
+PAYU_CURRENT_RUN: 4
+PAYU_FINISH_TIME: '2023-03-27T09:08:20.842328'
+PAYU_JOB_STATUS: 1
+PAYU_N_RUNS: 1
+PAYU_PATH: /g/data3/hh5/public/apps/miniconda3/envs/analysis3-22.10/bin
+PAYU_RUN_ID: null
+PAYU_START_TIME: '2023-03-27T09:08:11.758079'
+PAYU_WALLTIME: 9.084249 s

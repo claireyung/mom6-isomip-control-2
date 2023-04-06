@@ -2,17 +2,17 @@ format: yamanifest
 version: 1.0
 ---
 work/INPUT/MOM.res.nc:
-  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_Ocean4static_sigmazstar50/restart001/MOM.res.nc
+  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_Ocean4static_sigmazstar50/restart003/MOM.res.nc
   hashes:
-    binhash: 6d3b0bb1d98ef0fba138ed2a80fa5d90
-    md5: 249a0b0821f8426f84d5fe574d9e6e3d
+    binhash: 5a0078345fd2450e7760aa9e26fe4a54
+    md5: 7de750c8e8c0741b1d614e091771bb28
 work/INPUT/Shelf.res.nc:
-  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_Ocean4static_sigmazstar50/restart001/Shelf.res.nc
+  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_Ocean4static_sigmazstar50/restart003/Shelf.res.nc
   hashes:
-    binhash: d109b73405c46c722f32e2170fb60780
-    md5: 4a2ecf52c609d29512ac254d9ac5c925
+    binhash: 717acd34aaef7d0d41974bacda1e7a90
+    md5: b296a1bae1ba34131c36af6bb6fc8e73
 work/INPUT/ocean_solo.res:
-  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_Ocean4static_sigmazstar50/restart001/ocean_solo.res
+  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_Ocean4static_sigmazstar50/restart003/ocean_solo.res
   hashes:
-    binhash: 47dc9116e3d9432e50a8fb2193110f15
-    md5: 029931d797e0db4b1f118b9466745dc5
+    binhash: 6ff52c60f93d92b8e4334ade3a11e428
+    md5: d8f166d6b2ce1c7cbe5a181841c87e7e

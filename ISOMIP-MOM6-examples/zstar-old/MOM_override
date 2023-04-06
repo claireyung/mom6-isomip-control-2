@@ -1,0 +1,22 @@
+! Blank file in which we can put "overrides" for parameters
+
+#override TS_CONFIG = "ISOMIP"
+
+! Use zstar
+#override USE_REGRIDDING = True
+#override REGRIDDING_COORDINATE_MODE = "ZSTAR" ! default = "LAYER"
+                                ! Coordinate mode for vertical regridding. Choose among the following
+                                ! possibilities:  LAYER - Isopycnal or stacked shallow water layers
+                                !  ZSTAR, Z* - stretched geopotential z*
+                                !  SIGMA_SHELF_ZSTAR - stretched geopotential z* ignoring shelf
+                                !  SIGMA - terrain following coordinates
+                                !  RHO   - continuous isopycnal
+                                !  HYCOM1 - HyCOM-like hybrid coordinate
+                                !  HYBGEN - Hybrid coordinate from the Hycom hybgen code
+                                !  SLIGHT - stretched coordinates above continuous isopycnal
+                                !  ADAPTIVE - optimize for smooth neutral density surfaces
+! Set KV_ML_INVZ2 = 0 (meant to reduce spurious velocities)
+#override KV_ML_INVZ2 = 0.0 ! 1.0E-4
+#override FIXED_DEPTH_LOTW_ML = True
+!#override LOTW_VISCOUS_ML_FLOOR = True
+!#override HMIXED_FIXED = 20.0
